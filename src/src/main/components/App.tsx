@@ -94,12 +94,12 @@ function App() {
       <div className="main" >
 
         {/* 머릿말 */}
-        {/* <div className="header">
+        <div className="header">
           <div className="abstract">
             <div className="mark">WEDDING INVITATION</div>
-            <div className="who"><span>AAA </span><div className="line"><div className="stroke"></div></div><span> BBB</span></div>
+            {/* <div className="who"><span>AAA </span><div className="line"><div className="stroke"></div></div><span> BBB</span></div> */}
           </div>
-        </div> */}
+        </div>
 
         {/* 대문사진 */}
         <div className="intro">
