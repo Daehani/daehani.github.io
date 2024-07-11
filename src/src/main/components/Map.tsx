@@ -15,13 +15,13 @@ const Map = ({assetsBaseUrl}: MapProps) => {
       let link = null;
       switch (e.currentTarget.getAttribute('data-name')) {
         case 'navermap':
-          link = 'https://naver.me/IgDjfpX3';
+          link = 'https://naver.me/5y4YgZIV';
           break;
         case 'kakaonavi':
-          link = 'https://kko.to/u3xEZWI-dj';
+          link = 'https://kko.to/IIwrtCXlj0';
           break;
         case 'tmap':
-          link = 'https://poi.tmap.co.kr/sharing/positionSharing.do?contents=dHlwZT0yJnBrZXk9NTM4OTExMTAxJnBvaUlkPTUzODkxMTEmbmF2U2VxPTEmcG9pTmFtZT3rnbzruYTrkZDsiqQg7KO87LCo7J6lJmNlbnRlclg9NDU3MTkyMyZjZW50ZXJZPTEzNTE5MzYmdGltZT0yMDI064WEIDTsm5QgMjbsnbwgMjoxJnRlbD0wMi0yMjY1LTcwMDAmYWRkcj3shJzsmrgg7KSR6rWsIO2VhOuPmTPqsIAgNjItMTU=&tailParam=%7B%22reqMode%22:%221100%22,%22reqType%22:%221100%22,%22extra%22:%22112%22%7D';
+          link = 'https://poi.tmobiweb.com/app/share/position?contents=dHlwZT0yJnBrZXk9MjE3NTE2MDAmcG9pSWQ9MjE3NTE2Jm5hdlNlcT0wJnBvaU5hbWU97Jqp7IKw6rCA7KGx6rO17JuQJmNlbnRlclg9NDU3MTQ3NSZjZW50ZXJZPTEzNTA2MTkmdGltZT0yMDI064WEIDfsm5QgMTHsnbwgMTI6MzEmdGVsPTAyLTc5Mi01NjYxJmFkZHI97ISc7Jq4IOyaqeyCsOq1rCDshJzruZnqs6DroZwgMTM3&tailParam=%7B%22reqMode%22%3A%221100%22%2C%22reqType%22%3A%221100%22%2C%22extra%22%3A%22112%22%7D';
           break;
         default:
           break;
