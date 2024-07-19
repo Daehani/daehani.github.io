@@ -109,7 +109,7 @@ function App() {
           <img src={introImageUrl} className="image" />
         </div>
 
-        {/* <div className="context"> */}
+        <div className="context">
 
           {/* 장소/일시 */}
           {/* <div className="abstract">
@@ -132,7 +132,6 @@ function App() {
           {/* <div className="bridge-image">
             <img src={bridgeImageUrl}/>
           </div> */}
-
 
           {/* 지도 */}
           <div className="location">
@@ -177,9 +176,10 @@ function App() {
               저희 결혼을 축하해 주셔서 정말 감사합니다.
               가을 날 편안한 차림으로 함께 즐겨요.
             </p>
+            {quoteText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
           </div>
 
-        {/* </div> */}
+        </div>
       </div>
     </>
   );

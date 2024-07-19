@@ -160,11 +160,12 @@ body {
 .category {
   font-size: 1.4rem;
   font-weight: 400;
-  background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
-  background: -o-linear-gradient(right, #B08E82, #E5CACC);
-  background: -moz-linear-gradient(right, #B08E82, #E5CACC);
-  background: linear-gradient(to right, #B08E82, #E5CACC);
-  background-clip: text;
+  color: #ff5f9a;
+  /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC); */
+  /* background: -o-linear-gradient(right, #B08E82, #E5CACC); */
+  /* background: -moz-linear-gradient(right, #B08E82, #E5CACC); */
+  /* background: linear-gradient(to right, #B08E82, #E5CACC); */
+  /* background-clip: text; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -172,7 +173,8 @@ body {
 }
 
 .font-script {
-  font-family: "Great Vibes", cursive;
+  font-family: Pretendard, cursive;
+  /* font-family: "Great Vibes", cursive; */
   font-weight: 400;
   font-style: normal;
 }
@@ -474,7 +476,9 @@ body {
   text-align: center;
 
   font-size: 1rem;
-  color: #000000a0;
+  /* color: #000000a0; */
+  color: #ff5f9a;
+  
 
   margin: 0 0 3rem 0;
 }
