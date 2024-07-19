@@ -205,11 +205,12 @@ body {
 
 .invitation .category {
   margin: 3rem 0 1rem 0;
+  font-family: "Pretendard-Bold", serif;
 }
 
-.invitation .reference {
+/* .invitation .reference {
   margin: 3rem 0 0 0;
-}
+} */
 
 .bridge-image {
   left: 0;
@@ -417,6 +418,16 @@ body {
   color: #00000080;
 }
 
+.location {
+  /* margin: 3rem 0 1rem 0; */
+  width: 100%;               /* 컨테이너의 너비 */
+  height: 500px;             /* 컨테이너의 높이 */
+  background-image: url("../../../public/assets/photos/001.png"); /* 배경 이미지 URL */
+  background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
+  background-position: center; /* 이미지의 위치를 중앙으로 설정 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+}
+
 .location .category {
   margin: 3rem 0 1rem 0;
 }
@@ -534,6 +545,7 @@ input[type="button"]:disabled {
 
 .information .container .subtitle {
   font-size: 1.1rem;
+  font-family: "Pretendard-Bold", serif;
   color: #ff5f9a;
   /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
   background: -o-linear-gradient(right, #B08E82, #E5CACC);
