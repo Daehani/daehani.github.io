@@ -8,12 +8,16 @@ import Toast, { ToastLevel } from './Toast';
 declare const naver: any;
 
 function App() {
-  // const quoteText = "최고의 사랑은 영혼을 일깨우고\n" +
-  //   "더 많이 소망하게 하고\n" +
-  //   "가슴에 열정을, 마음에 평화를 주지.\n" +
-  //   "네게서 그걸 얻었고\n" +
-  //   "너에게 영원히 주고 싶어.";
-  // const quoteReference = "영화 《노트북》 中";
+  const quoteText = 
+    "여름의 첫 만남, 가을의 새로운 시작\n" +
+    "서로를 통해 나를 발견하는\n" +
+    "우리만의 여행을 시작하려 합니다.\n" +
+    "\n" +
+    "이 특별한 순간에 함께해 주실\n" +
+    "고마운 분들을 초대합니다.";
+  const quoteReference =
+    "2024년 10월 6일 일요일 오후 1시" +
+    "용산 가족 공원";
 
   // const informations = [
   //   ["도보", ["충무로역 1번 출구에서 약 10분(약 615m)"]],
@@ -118,74 +122,25 @@ function App() {
           </div> */}
 
           {/* 초대글 */}
-          {/* <p className="category font-script">
-            Invitation
+          <p className="category font-script">
+            대한과 지수 결혼합니다.
           </p>          
           <div className="quote">
             {quoteText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
             <p className="contents">{quoteReference}</p>
-          </div> */}
+          </div>
 
 
           {/* 중간 사진 */}
           {/* <div className="bridge-image">
             <img src={bridgeImageUrl}/>
           </div> */}
-
-
-          {/* 사진첩 */}
-          {/* <div className="gallery">
-            <p className="category font-script">
-              Gallery
-            </p>
-          </div>
-
-          <div className="photo">
-            <div className="scrollable">
-              {[...new Array(photoRows).keys()].map((row, index) => {
-                  return <div className="photo-row" key={index}>
-                    {
-                      [...new Array(photoColumns).keys()].map((col, index2) => {
-                        let photoIndex = row + col * photoRows;
-                        let extraIndex = 0;
-                        if (photoIndex > 0) {
-                          extraIndex = [...new Array(photoIndex).keys()]
-                            .map(it => photosContinuable.includes(photos[it]) ? Number(1) : Number(0))
-                            .reduce((acc, s) => acc + s);
-                          photoIndex = photoIndex + extraIndex;
-                        }
-
-                        console.log(photoIndex, extraIndex);
-                        if (photoIndex < photos.length) {
-                          const photoUrl = `${photoBaseUrl}/${photos[photoIndex]}.jpg`;
-                          let nextPhotoUrl = '';
-                          if (photoIndex + 1 < photos.length && photosContinuable.includes(photos[photoIndex])) {
-                            nextPhotoUrl = `${photoBaseUrl}/${photos[photoIndex + 1]}.jpg`;
-                          }
-                          return <div className="item" key={index2}>
-                            {
-                              nextPhotoUrl.length !== 0 ?
-                              <>
-                                <img src={photoUrl} onClick={(_) => handleImageClick(photoIndex)}/>
-                                <img src={nextPhotoUrl} onClick={(_) => handleImageClick(photoIndex + 1)}/>
-                              </> :
-                              <img src={photoUrl} onClick={(_) => handleImageClick(photoIndex)}/>
-                            }
-                          </div>;
-                        } else {
-                          return <div className="item" key={index2}></div>;
-                        }
-                      })
-                    }
-                  </div>; 
-              })}
-            </div>
-          </div> */}
+          
             
           {/* 지도 */}
           <div className="location">
             <p className="category font-script">
-              Location
+              LOCATION
             </p>
           </div>
           <Map
@@ -217,11 +172,11 @@ function App() {
           </div> */}
           
           
-          {/* <div className="tail">
+          <div className="tail">
             <p className="contents">
-              Seokmo & Jiyul
+              저희 결혼을\n 축하해 주셔서 정말 감사합니다.\n 가을 날 편안한 차림으로 함께 즐겨요.
             </p>
-          </div> */}
+          </div>
 
         </div>
       </div>
