@@ -423,7 +423,8 @@ body {
   width: 100%;               /* 컨테이너의 너비 */
   height: 500px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/002.jpg"); /* 배경 이미지 URL */
-  background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
+  /* background-size: cover;    이미지가 컨테이너 전체를 커버하도록 조절 */
+  background-size: 100% 100%;
   background-position: center; /* 이미지의 위치를 중앙으로 설정 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
   position: relative; /* 오버레이를 절대 위치로 설정하기 위한 기준 */
