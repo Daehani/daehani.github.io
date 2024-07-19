@@ -14,10 +14,10 @@ function App() {
     "\n" +
     "이 특별한 순간에 함께해 주실\n" +
     "고마운 분들을 초대합니다.";
-  const quoteReference = "2024년 10월 6일 일요일 오후 1시" +
+  const quoteReference = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
   const informations = [
-    ["자가용 안내", ["국립중앙박물관 지하주차장 이용\n 소액의 주차비용 발생, 양해 부탁드립니다."]],
+    ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
     ["피로연 안내", ["국립중앙박물관 거울못식장 오후 2시"]],
     ["화환 반입", ["공원 운영정책에 따라 정중히 사양합니다."]]
@@ -104,12 +104,12 @@ function App() {
 
         {/* 대문사진 */}
         <div className="intro">
-          <div className="overlay" />
-          <div className="border" />
+          {/* <div className="overlay" /> */}
+          {/* <div className="border" /> */}
           <img src={introImageUrl} className="image" />
         </div>
 
-        <div className="context">
+        {/* <div className="context"> */}
 
           {/* 장소/일시 */}
           {/* <div className="abstract">
@@ -137,12 +137,10 @@ function App() {
           {/* 지도 */}
           <div className="location">
             <p className="category font-script">
-              용산가족공원 연못 옆
-              버드나무 아래
+              용산가족공원 연못 옆\n 버드나무 아래
             </p>
             <p className="contents">
-              서울 용산구 서빙고로 137
-              국립중앙박물관 옆 용산가족공원
+              서울 용산구 서빙고로 137\n 국립중앙박물관 옆 용산가족공원
             </p>
           </div>
           <Map
@@ -181,7 +179,7 @@ function App() {
             </p>
           </div>
 
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
