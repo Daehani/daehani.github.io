@@ -1,21 +1,25 @@
 @import "~@flaticon/flaticon-uicons/css/solid/all";
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+/* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"); */
 
 @font-face {
   font-family: "Francisco";
   src: url("https://daehani.github.io//assets/fonts/Francisco.woff");
 }
+@font-face {
+  font-family: "Pretendard-ExtraBold";
+  src: url("https://daehani.github.io//assets/fonts/Pretendard-ExtraBold.woff");
+}
 
 html {
   font-size: 14px;
-  font-family: Pretendard;
-  /* font-family: "Gowun Batang", serif; */
+  /* font-family: Pretendard; */
+  font-family: "Gowun Batang", serif;
   background: #5D555640;
 }
 
 body {
-  font-family: Pretendard;
-  /* font-family: "Gowun Batang", serif; */
+  /* font-family: Pretendard; */
+  font-family: "Gowun Batang", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -183,7 +187,7 @@ body {
   display: none;
   margin: 6rem 0 3rem 0;
   color: #00000090;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .invitation {
@@ -647,6 +651,11 @@ input[type="button"]:disabled {
 
 .tail {
   color: #000000;
+}
+
+.tail .contents {
+  font-family: "Pretendard-ExtraBold";
+  color: #ff5f9a;
 }
 
 audio {
