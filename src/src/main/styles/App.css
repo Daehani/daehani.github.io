@@ -432,8 +432,8 @@ body {
 
 .location .overlay {
   position: absolute; /* 배경 이미지 위에 오버레이 */
-  width: 900%;
-  height: 300px;
+  width: 90%;
+  height: 40%;
   /* top: 2;
   left: 0;
   right: 0;
@@ -446,6 +446,8 @@ body {
 
 .location .category {
   margin: 3rem 0 1rem 0;
+  font-family: "Pretendard-ExtraBold";
+  color: #ff5f9a;
 }
 
 
