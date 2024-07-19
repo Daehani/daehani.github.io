@@ -1,25 +1,33 @@
 @import "~@flaticon/flaticon-uicons/css/solid/all";
 /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"); */
 
-@font-face {
+/* @font-face {
   font-family: "Francisco";
   src: url("https://daehani.github.io//assets/fonts/Francisco.woff");
-}
+} */
 @font-face {
   font-family: "Pretendard-ExtraBold";
   src: url("https://daehani.github.io//assets/fonts/Pretendard-ExtraBold.woff");
 }
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("https://daehani.github.io//assets/fonts/Pretendard-Bold.woff");
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://daehani.github.io//assets/fonts/Pretendard-Regular.woff");
+}
 
 html {
   font-size: 14px;
-  /* font-family: Pretendard; */
-  font-family: "Gowun Batang", serif;
+  font-family: "Pretendard-Regular", serif;
+  /* font-family: "Gowun Batang", serif; */
   background: #5D555640;
 }
 
 body {
-  /* font-family: Pretendard; */
-  font-family: "Gowun Batang", serif;
+  font-family: "Pretendard-Regular", serif;
+  /* font-family: "Gowun Batang", serif; */
   font-weight: 400;
   font-style: normal;
 }
@@ -130,7 +138,7 @@ body {
   justify-content: center;
 }
 
-.main .context .abstract .who {
+/* .main .context .abstract .who {
   color: #000000ff;
   font-size: 2.4rem;
   margin: 0 0 0.5rem 0;
@@ -149,7 +157,7 @@ body {
 .main .context .abstract .where {
   font-size: 1.1rem;
   margin: 0 0 2rem 0;
-}
+} */
 
 .main .context {
   text-align: center;
@@ -165,11 +173,11 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   color: #ff5f9a;
-  /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC); */
-  /* background: -o-linear-gradient(right, #B08E82, #E5CACC); */
-  /* background: -moz-linear-gradient(right, #B08E82, #E5CACC); */
-  /* background: linear-gradient(to right, #B08E82, #E5CACC); */
-  /* background-clip: text; */
+  background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
+  background: -o-linear-gradient(right, #B08E82, #E5CACC);
+  background: -moz-linear-gradient(right, #B08E82, #E5CACC);
+  background: linear-gradient(to right, #B08E82, #E5CACC);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -177,7 +185,7 @@ body {
 }
 
 .font-script {
-  font-family: Pretendard, cursive;
+  font-family: "Pretendard-ExtraBold", cursive;
   /* font-family: "Great Vibes", cursive; */
   font-weight: 400;
   font-style: normal;
@@ -186,16 +194,8 @@ body {
 .quote {
   display: none;
   margin: 6rem 0 3rem 0;
-  color: #00000090;
+  color: #000000;
   /* font-style: italic; */
-}
-
-.invitation {
-  margin: 0 -2rem 6rem -2rem;
-}
-
-.invitation .reference {
-  margin: 3rem 0 0 0;
 }
 
 .bridge-image {
@@ -209,111 +209,9 @@ body {
   width: 100%;
 }
 
-.parents {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 2rem 0;
-  font-size: 1.1rem;
-}
-
-.parents table {
-  text-align: left;
-}
-
-.parents table tr td {
-  padding: 0.4em 0.6em;
-}
-
-.parents small {
-  margin: 0 0.3em;
-}
-
-.contacts {
-  margin: 0 2rem 6rem 2rem;
-  border-radius: 0.5rem;
-  background: #f1edea;
-  position: relative;
-  transition: 0.5s;
-  border: 1px solid #00000020;
-  z-index: 40;
-}
-
-.contacts.visible, .attendance.visible .area {
-  background: #f1edea;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  transition: 0.5s;
-
-  /* border: none; */
-  font-size: 1.4rem;
-  margin: 0;
-}
-
-.contacts .title, .attendance .area {
-  padding: 1rem 0;
-  font-size: 0.875em;
-  letter-spacing: 0.05rem;
-}
-
-.contacts .title .icon {
-  display: inline-block;
-  transform: rotateY(180deg);
-  font-size: 0.7em;
-  color: #000000a0;
-  margin: 0 0.8em 0 0;
-}
-
-.contacts .seperator {
-  height: 0;
-  transition: 0.5s;
-  background: white;
-  border-bottom: none;
-}
-
-.contacts .seperator.visible {
-  height: 0;
-  transition: 0.5s;
-  border-bottom: 2px dashed #d8d8d8;
-  margin: 0.5rem 1rem;
-}
-
-.contacts .groups {
-  background: white;
-}
-
-.contacts .group.visible {
-  /* border-bottom: 1px solid #F7F4F3; */
-}
-
-.contacts .group .item .row {
-  display: flex;
-}
-
-.contacts .group .item .row .col {
-  overflow: hidden;
-}
-
-.contacts .group .item .row .col.left {
-  text-align: right;
-  flex: 3 1;
-  padding: 0.1rem 0 0.1rem 0;
-}
-
-.contacts .group .item .row .col.middle {
-  text-align: center;
-  flex: 3 1;
-  padding: 0.1rem 0 0.1rem 0;
-}
-
-.contacts .group .item .row .col.right {
-  text-align: left;
-  flex: 3 1;
-  padding: 0.1rem 0 0.1rem 0;
-}
-
-.gallery .category {
+/* .gallery .category {
   margin: 3rem 0 2rem 0;
-}
+} */
 
 .photo {
   position: relative;
@@ -941,126 +839,6 @@ a, a:visited {
 
 .main .main-overlay.visible {
   /* display: block; */
-}
-
-.guest-book {
-  margin: 0 0 6rem 0;
-  font-size: 0.875rem;
-}
-
-.guest-book .guide {
-  font-size: 1rem;
-  margin: 0 0 2rem 0;
-}
-
-.guest-book .contents .board, .attendance .form {
-  display: flex;
-  flex-direction: column;
-
-  background: white;
-  padding: 1rem 1rem;
-  border-radius: 0.3rem;
-  border: 1px solid #00000018;
-  margin: 0 0 0.5rem 0;
-}
-
-.guest-book .contents .board .upper {
-  display: flex;
-  padding: 0 0 0.5rem 0;
-  border-bottom: 1px dashed #00000010;
-  overflow: hidden;
-}
-
-.guest-book .contents .board .upper .name {
-  flex: 2 1;
-  text-align: left;
-}
-
-.guest-book .contents .board .upper .name .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  font-weight: 600;
-}
-
-.guest-book .contents .board .upper .controls {
-  flex: 1 1;
-  text-align: right;
-}
-
-.guest-book .contents .board .upper .controls .edit {
-  display: none;
-  margin: 0 0.5rem 0 0;
-  cursor: pointer;
-  color: #606060;
-}
-
-.guest-book .contents .board .upper .controls .delete {
-  cursor: pointer;
-  color: #606060;
-}
-
-.guest-book .contents .board .middle, .attendance .form .row {
-  display: flex;
-  padding: 0.5rem 0 0.5rem 0;
-  border-bottom: 1px dashed #00000010;
-  overflow: hidden;
-}
-
-.guest-book .contents .board .lower {
-  padding: 0.5rem 0 0 0;
-  text-align: left;
-  word-wrap: break-word;
-  min-height: 1rem;
-  max-height: 6rem;
-  overflow-x: hidden;
-  overflow-y: scroll;
-
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-.guest-book .contents .board .lower::-webkit-scrollbar {
-  display: none;
-}
-
-.guest-book .contents .board.form .lower {
-  display: flex;
-}
-
-.guest-book .contents .board .lower p {
-  padding: 0;
-  margin: 0;
-}
-
-.guest-book .contents .board .label {
-  flex: 1 1;
-  text-align: left;
-}
-
-.guest-book .contents .board .input {
-  display: flex;
-  flex: 5 1;
-  text-align: left;
-}
-
-.guest-book .contents .board .input .textbox, .attendance .form .textbox {
-  width: 100%;
-  outline: none;
-  border: none;
-  font-family: Pretendard;
-  /* font-family: "Gowun Batang", serif; */
-  font-size: 0.875rem;
-}
-
-.guest-book .contents .board .input textarea.textbox {
-  resize: none;
-}
-
-.guest-book .contents .manipulate {
-  margin: 0.5rem 0 3rem 0;
 }
 
 .attendance {
