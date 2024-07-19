@@ -8,33 +8,30 @@ import Toast, { ToastLevel } from './Toast';
 declare const naver: any;
 
 function App() {
-  const quoteText = 
-    "여름의 첫 만남, 가을의 새로운 시작\n" +
+  const quoteText = "여름의 첫 만남, 가을의 새로운 시작\n" +
     "서로를 통해 나를 발견하는\n" +
     "우리만의 여행을 시작하려 합니다.\n" +
     "\n" +
     "이 특별한 순간에 함께해 주실\n" +
     "고마운 분들을 초대합니다.";
-  const quoteReference =
-    "2024년 10월 6일 일요일 오후 1시" +
+  const quoteReference = "2024년 10월 6일 일요일 오후 1시" +
     "용산 가족 공원";
-
-  // const informations = [
-  //   ["도보", ["충무로역 1번 출구에서 약 10분(약 615m)"]],
-  //   ["지하철", ["3, 4호선 충무로역 1번 출구 앞", "셔틀버스 이용(3분 간격)\n오전 10시 30분부터 오전 11시 30분까지 운행"]],
-  //   ["버스", ["104, 421, 463, 507", "남산순환버스 01A, 01B, 6001(공항버스)"]],
-  //   ["주차", ["라비두스 별관 주차장(3시간 무료)"]]
-  // ];
+  const informations = [
+    ["자가용 안내", ["국립중앙박물관 지하주차장 이용\n 소액의 주차비용 발생, 양해 부탁드립니다."]],
+    ["대중교통 안내", ["4호선 이촌역 2번출구", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
+    ["피로연 안내", ["국립중앙박물관 거울못식장 오후 2시"]],
+    ["화환 반입", ["공원 운영정책에 따라 정중히 사양합니다."]]
+  ];
 
   const photos = [...new Array(34).keys()].map(it => (it + 1).toString().padStart(3, "0")).filter(it => !["006", "011"].includes(it));
-  const photosContinuable: Array<string> = [];
+  // const photosContinuable: Array<string> = [];
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
   const introImageUrl = `${photoBaseUrl}/000.png`;
   // const bridgeImageUrl = `${photoBaseUrl}/031.jpg`;
 
-  const photoRows = 2;
-  const photoColumns = 16;
+  // const photoRows = 2;
+  // const photoColumns = 16;
   const [imageMode, setImageMode] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -76,10 +73,10 @@ function App() {
     });
   }
 
-  function handleImageClick(photoIndex: number) {
-    setImageIndex(photoIndex);
-    setImageMode(true);
-  }
+  // function handleImageClick(photoIndex: number) {
+  //   setImageIndex(photoIndex);
+  //   setImageMode(true);
+  // }
 
   return (
     <>
@@ -98,12 +95,12 @@ function App() {
       <div className="main" >
 
         {/* 머릿말 */}
-        <div className="header">
-          <div className="abstract">
-            <div className="mark">WEDDING INVITATION</div>
+        {/* <div className="header"> */}
+          {/* <div className="abstract"> */}
+            {/* <div className="mark">WEDDING INVITATION</div> */}
             {/* <div className="who"><span>AAA </span><div className="line"><div className="stroke"></div></div><span> BBB</span></div> */}
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div> */}
 
         {/* 대문사진 */}
         <div className="intro">
@@ -135,18 +132,23 @@ function App() {
           {/* <div className="bridge-image">
             <img src={bridgeImageUrl}/>
           </div> */}
-          
-            
+
+
           {/* 지도 */}
           <div className="location">
             <p className="category font-script">
-              LOCATION
+              용산가족공원 연못 옆
+              버드나무 아래
+            </p>
+            <p className="contents">
+              서울 용산구 서빙고로 137
+              국립중앙박물관 옆 용산가족공원
             </p>
           </div>
           <Map
             assetsBaseUrl={assetsBaseUrl}
           />
-          {/* <div className="information">
+          <div className="information">
             {informations.map((it, index) => {
               return <div className="container" key={index}>
                 <div>
@@ -169,12 +171,13 @@ function App() {
                 </div>
               </div>;
             })}
-          </div> */}
+          </div>
           
           
           <div className="tail">
             <p className="contents">
-              저희 결혼을\n 축하해 주셔서 정말 감사합니다.\n 가을 날 편안한 차림으로 함께 즐겨요.
+              저희 결혼을 축하해 주셔서 정말 감사합니다.
+              가을 날 편안한 차림으로 함께 즐겨요.
             </p>
           </div>
 
