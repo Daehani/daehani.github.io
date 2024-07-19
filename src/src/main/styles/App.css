@@ -69,23 +69,26 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  height: 560px;
   overflow: hidden;
+  /* height: 560px; */
+  display: flex;      /* Flexbox 레이아웃 적용 */
+  flex-direction: column; /* 자식 요소를 수직으로 정렬 */
+  align-items: stretch; /* 자식 요소를 부모의 너비에 맞춤 (가로 방향) */
 }
 
 .main .intro .image {
   width: 100%;
+  display: block;     /* 이미지가 inline 대신 block 요소로 처리 */
 }
 
-.main .intro .overlay {
+/* .main .intro .overlay {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-
   background: linear-gradient(0deg, white 0%, #ffffff80 5%, transparent 10%);
-}
+} */
 
 .main .border {
   position: absolute;
@@ -93,7 +96,6 @@ body {
   right: 1rem;
   top: 1rem;
   bottom: 1rem;
-
 }
 
 .main .context .abstract {
@@ -532,13 +534,14 @@ input[type="button"]:disabled {
 
 .information .container .subtitle {
   font-size: 1.1rem;
-  background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
+  color: #ff5f9a;
+  /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
   background: -o-linear-gradient(right, #B08E82, #E5CACC);
   background: -moz-linear-gradient(right, #B08E82, #E5CACC);
   background: linear-gradient(to right, #B08E82, #E5CACC);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .information .container .item {
@@ -548,7 +551,7 @@ input[type="button"]:disabled {
 }
 .information .container .item .inner {
   /* font-size: 0.875rem; */
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: #00000080;
   line-height: 2.5rem;
   padding: 0;
