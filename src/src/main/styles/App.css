@@ -60,7 +60,7 @@ body {
   position: absolute;
   background: white;
   width: 100%;
-
+  text-align: center;
   /* background: linear-gradient(90deg, #fcfcfc 9px, transparent 1%) center, linear-gradient(#fcfcfc 9px, transparent 1%) center, #e8e8e8ff; */
   /* background-size: 10px 10px; */
 }
@@ -98,9 +98,9 @@ body {
   bottom: 1rem;
 }
 
-.main .context .abstract {
+/* .main .context .abstract {
   margin: 2rem 0 6rem 0;
-}
+} */
 
 .main .header .abstract {
 
@@ -161,10 +161,10 @@ body {
   margin: 0 0 2rem 0;
 } */
 
-.main .context {
+/* .main .context {
   text-align: center;
   padding: 0 3rem 3rem 3rem;
-}
+} */
 
 .image-intro {
   height: 40vmin;
@@ -423,8 +423,7 @@ body {
   width: 100%;               /* 컨테이너의 너비 */
   height: 500px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/002.jpg"); /* 배경 이미지 URL */
-  /* background-size: cover;    이미지가 컨테이너 전체를 커버하도록 조절 */
-  background-size: 100% 100%;
+  background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   background-position: center; /* 이미지의 위치를 중앙으로 설정 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
   position: relative; /* 오버레이를 절대 위치로 설정하기 위한 기준 */
@@ -542,7 +541,7 @@ input[type="button"]:disabled {
 }
 
 .information {
-  text-align: left;
+  text-align: center;
   margin: 0 0 6rem 0;
 }
 

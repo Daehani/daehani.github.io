@@ -112,61 +112,63 @@ function App() {
           <img src={introImageUrl} className="image" />
         </div>
 
-        <div className="context">
-          {/* 초대글 */}       
-          <div className="invitation">
-            <p className="category font-script">
-              대한과 지수 결혼합니다.
-            </p>   
-            {inviteText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-            {inviteText2.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          </div>
+        {/* <div className="context"> */}
 
-
-          {/* 지도 */}
-          <div className="location">
-            <p className="category font-script">
-              용산가족공원 연못 옆 버드나무 아래
-            </p>
-            <p className="contents"> 서울 용산구 서빙고로 137</p>
-            <p className="contents"> 국립중앙박물관 옆 용산가족공원</p>
-            <p className="overlay">
-              <Map
-              assetsBaseUrl={assetsBaseUrl}
-              />
-            </p>
-          </div>
-          <div className="information">
-            {informations.map((it, index) => {
-              return <div className="container" key={index}>
-                <div>
-                  <p className="subtitle">
-                    {it[0]}
-                  </p>
-                </div>
-                <div>
-                  {(it[1] as string[]).map((row, index2) => {
-                    const rows = row.split("\n");
-                    return <p className="item" key={index2}>
-                      {rows[0]}
-                      {rows.length > 1 ? <>
-                        <br />
-                        {rows.slice(1).map((inner, index3) => <span key={index3} className="inner">{inner}</span>)}
-                      </> : <></>}
-                    </p>;
-                  }
-                  )}
-                </div>
-              </div>;
-            })}
-          </div>
-          
-          
-          <div className="tail">
-            {tailText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
-          </div>
-
+        {/* 초대글 */}       
+        <div className="invitation">
+          <p className="category font-script">
+            대한과 지수 결혼합니다.
+          </p>   
+          {inviteText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {inviteText2.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
         </div>
+
+
+        {/* 지도 */}
+        <div className="location">
+          <p className="category font-script">
+            용산가족공원 연못 옆 버드나무 아래
+          </p>
+          <p className="contents"> 서울 용산구 서빙고로 137</p>
+          <p className="contents"> 국립중앙박물관 옆 용산가족공원</p>
+          <p className="overlay">
+            <Map
+            assetsBaseUrl={assetsBaseUrl}
+            />
+          </p>
+        </div>
+        <div className="information">
+          {informations.map((it, index) => {
+            return <div className="container" key={index}>
+              <div>
+                <p className="subtitle">
+                  {it[0]}
+                </p>
+              </div>
+              <div>
+                {(it[1] as string[]).map((row, index2) => {
+                  const rows = row.split("\n");
+                  return <p className="item" key={index2}>
+                    {rows[0]}
+                    {rows.length > 1 ? <>
+                      <br />
+                      {rows.slice(1).map((inner, index3) => <span key={index3} className="inner">{inner}</span>)}
+                    </> : <></>}
+                  </p>;
+                }
+                )}
+              </div>
+            </div>;
+          })}
+        </div>
+        
+        
+        <div className="tail">
+          {tailText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
+        </div>
+
+        {/* </div> */}
+
       </div>
     </>
   );
