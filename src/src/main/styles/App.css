@@ -432,16 +432,16 @@ body {
 
 .location .overlay {
   position: absolute; /* 배경 이미지 위에 오버레이 */
-  /* width: 100%;               컨테이너의 너비
-  height: 300px;             컨테이너의 높이 */
-  /* top: 0;
+  width: 900%;
+  height: 300px;
+  /* top: 2;
   left: 0;
   right: 0;
   bottom: 0; */
   flex: 1 0 auto;
   flex-direction: column-reverse;
-  justify-content: center; /*수평 중앙 정렬*/
-  /* align-items: flex-end; 수직 중앙 정렬 */
+  justify-content: center;
+  /* align-items: flex-end; */
 }
 
 .location .category {
