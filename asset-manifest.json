@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac4e5f83.css",
-    "main.js": "/static/js/main.be60e8f5.js",
+    "main.css": "/static/css/main.ddd11b0f.css",
+    "main.js": "/static/js/main.d0d5c8fb.js",
     "static/js/206.22c11b3b.chunk.js": "/static/js/206.22c11b3b.chunk.js",
     "static/media/uicons-solid-rounded-N5CQNTC6.eot": "/static/media/uicons-solid-rounded-N5CQNTC6.ebf71074e49f1cc4e860.eot",
     "static/media/uicons-solid-straight-W4CCEH4W.eot": "/static/media/uicons-solid-straight-W4CCEH4W.e704a0f26ecd5add2611.eot",
@@ -13,7 +13,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.ac4e5f83.css",
-    "static/js/main.be60e8f5.js"
+    "static/css/main.ddd11b0f.css",
+    "static/js/main.d0d5c8fb.js"
   ]
 }
