@@ -32,7 +32,7 @@ function App() {
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
   const introImageUrl = `${photoBaseUrl}/000.png`;
   // const bridgeImageUrl = `${photoBaseUrl}/031.jpg`;
-
+  
   // const photoRows = 2;
   // const photoColumns = 16;
   const [imageMode, setImageMode] = useState(false);
@@ -130,10 +130,12 @@ function App() {
             </p>
             <p className="contents"> 서울 용산구 서빙고로 137</p>
             <p className="contents"> 국립중앙박물관 옆 용산가족공원</p>
+            <p className="overlay">
+              <Map
+              assetsBaseUrl={assetsBaseUrl}
+              />
+            </p>
           </div>
-          <Map
-            assetsBaseUrl={assetsBaseUrl}
-          />
           <div className="information">
             {informations.map((it, index) => {
               return <div className="container" key={index}>

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e4bd90f.css",
-    "main.js": "/static/js/main.c2c1029f.js",
+    "main.css": "/static/css/main.15146189.css",
+    "main.js": "/static/js/main.be60e8f5.js",
     "static/js/206.22c11b3b.chunk.js": "/static/js/206.22c11b3b.chunk.js",
-    "static/media/001.png": "/static/media/001.05c5289553d4426f5b19.png",
     "static/media/uicons-solid-rounded-N5CQNTC6.eot": "/static/media/uicons-solid-rounded-N5CQNTC6.ebf71074e49f1cc4e860.eot",
     "static/media/uicons-solid-straight-W4CCEH4W.eot": "/static/media/uicons-solid-straight-W4CCEH4W.e704a0f26ecd5add2611.eot",
     "static/media/uicons-solid-rounded-UWVI4CEC.woff": "/static/media/uicons-solid-rounded-UWVI4CEC.9ce0ef5e6fa829ac32bd.woff",
+    "static/media/002.jpg": "/static/media/002.70b634f8c6045536ee9a.jpg",
     "static/media/uicons-solid-straight-ITFA7HIK.woff": "/static/media/uicons-solid-straight-ITFA7HIK.ab88e50e21486ce8c779.woff",
     "static/media/uicons-solid-rounded-IYSBBSWN.woff2": "/static/media/uicons-solid-rounded-IYSBBSWN.fc3e058f3a4c7819b24e.woff2",
     "static/media/uicons-solid-straight-4DZ3VA4V.woff2": "/static/media/uicons-solid-straight-4DZ3VA4V.10a42bec98afb83391ab.woff2",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.5e4bd90f.css",
-    "static/js/main.c2c1029f.js"
+    "static/css/main.15146189.css",
+    "static/js/main.be60e8f5.js"
   ]
 }
