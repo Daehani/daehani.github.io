@@ -133,10 +133,10 @@ body {
   background: #00000070;
 }
 
-.main .abstract div {
+/* .main .abstract div {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* .main .context .abstract .who {
   color: #000000ff;
@@ -173,14 +173,13 @@ body {
   font-size: 1.4rem;
   font-weight: 400;
   color: #ff5f9a;
-  background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
+  /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
   background: -o-linear-gradient(right, #B08E82, #E5CACC);
   background: -moz-linear-gradient(right, #B08E82, #E5CACC);
   background: linear-gradient(to right, #B08E82, #E5CACC);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  -webkit-text-fill-color: transparent; */
   margin: 3rem 0 3rem 0;
 }
 
@@ -196,6 +195,18 @@ body {
   margin: 6rem 0 3rem 0;
   color: #000000;
   /* font-style: italic; */
+}
+
+.invitation {
+  margin: 0 -2rem 6rem -2rem;
+}
+
+.invitation .category {
+  margin: 3rem 0 1rem 0;
+}
+
+.invitation .reference {
+  margin: 3rem 0 0 0;
 }
 
 .bridge-image {
@@ -405,7 +416,7 @@ body {
 }
 
 .location .category {
-  margin: 10rem 0 20rem 0;
+  margin: 3rem 0 1rem 0;
 }
 
 .maps {
