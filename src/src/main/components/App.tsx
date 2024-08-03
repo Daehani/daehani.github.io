@@ -16,6 +16,8 @@ function App() {
     "고마운 분들을 초대합니다.";
   const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
+  const locationText = "서울 용산구 서빙고로 137\n" +
+    "국립중앙박물관 옆 용산가족공원";
   const informations = [
     ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
@@ -125,12 +127,11 @@ function App() {
 
 
         {/* 지도 */}
-        <div className="location">
-          <p className="category font-script">
+        <p className="category font-script">
             용산가족공원 연못 옆 버드나무 아래
-          </p>
-          <p className="contents"> 서울 용산구 서빙고로 137</p>
-          <p className="contents"> 국립중앙박물관 옆 용산가족공원</p>
+        </p>
+        {locationText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+        <div className="location">  
           <p className="overlay">
             <Map
             assetsBaseUrl={assetsBaseUrl}
