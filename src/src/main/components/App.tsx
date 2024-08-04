@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, MouseEvent, KeyboardEvent } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/App.css';
 import 'react-slideshow-image/dist/styles.css';
 import ImageViewer from './ImageViewer';
@@ -16,8 +16,8 @@ function App() {
     "고마운 분들을 초대합니다.\n";
   const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
-  const locationText = "서울 용산구 서빙고로 137\n" +
-    "국립중앙박물관 옆 용산가족공원";
+  // const locationText = "서울 용산구 서빙고로 137\n" +
+  //   "국립중앙박물관 옆 용산가족공원";
   const informations = [
     ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
@@ -68,15 +68,14 @@ function App() {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
       },
-      size: new naver.maps.Size(340, 300)
+      size: new naver.maps.Size(337, 300)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
-    // map.setSize(10, 10);
-    const marker = new naver.maps.Marker({
-      position: center,
-      map: map
-    });
+    // const marker = new naver.maps.Marker({
+    //   position: center,
+    //   map: map
+    // });
   }
 
   // function handleImageClick(photoIndex: number) {

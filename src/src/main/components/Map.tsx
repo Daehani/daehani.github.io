@@ -15,13 +15,10 @@ const Map = ({assetsBaseUrl}: MapProps) => {
       let link = null;
       switch (e.currentTarget.getAttribute('data-name')) {
         case 'navermap':
-          link = 'https://naver.me/5y4YgZIV';
-          break;
-        case 'kakaonavi':
-          link = 'https://kko.to/IIwrtCXlj0';
+          link = 'https://naver.me/Fr7LMHB5';
           break;
         case 'tmap':
-          link = 'https://poi.tmobiweb.com/app/share/position?contents=dHlwZT0yJnBrZXk9MjE3NTE2MDAmcG9pSWQ9MjE3NTE2Jm5hdlNlcT0wJnBvaU5hbWU97Jqp7IKw6rCA7KGx6rO17JuQJmNlbnRlclg9NDU3MTQ3NSZjZW50ZXJZPTEzNTA2MTkmdGltZT0yMDI064WEIDfsm5QgMTHsnbwgMTI6MzEmdGVsPTAyLTc5Mi01NjYxJmFkZHI97ISc7Jq4IOyaqeyCsOq1rCDshJzruZnqs6DroZwgMTM3&tailParam=%7B%22reqMode%22%3A%221100%22%2C%22reqType%22%3A%221100%22%2C%22extra%22%3A%22112%22%7D';
+          link = 'https://poi.tmobiweb.com/app/share/position?contents=dHlwZT0yJnBvaU5hbWU97ISc7Jq47Yq567OE7IucIOyaqeyCsOq1rCDshJzruZnqs6DroZwgMTg1JmNlbnRlclg9NDU3MTQ4OCZjZW50ZXJZPTEzNTA2NjgmdGltZT0yMDI064WEIDjsm5QgNOydvCAxOToxNw==&tailParam=%7B%7D';
           break;
         default:
           break;
@@ -45,11 +42,6 @@ const Map = ({assetsBaseUrl}: MapProps) => {
           <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/navermap.png`}/></div></div>
           <div className="vendor">네이버 지도</div>
         </div>
-        {/* <div className="divider"><div className="stroke"></div></div>
-        <div className="link" style={{'flex': '3 0'}} data-name="kakaonavi" onClick={handleClickLink}>
-          <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/kakaonavi.png`}/></div></div>
-          <div className="vendor">카카오맵</div>
-        </div> */}
         <div className="divider"><div className="stroke"></div></div>
         <div className="link" style={{'flex': '2 0'}}  data-name="tmap" onClick={handleClickLink}>
           <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/tmap.png`}/></div></div>
