@@ -129,7 +129,7 @@ function App() {
 
         {/* 지도 */}
         <div className="location">
-          <p className="contents">
+          <p className="category">
               용산가족공원 연못 옆<br></br> 버드나무 아래
           </p>
           {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)}
