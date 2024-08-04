@@ -133,11 +133,11 @@ function App() {
               용산가족공원 연못 옆<br></br>
               버드나무 아래
           </p>
-          {/* <p className="contents">
+          <p className="contents">
               서울 용산구 서빙고로 137<br></br>
               국립중앙박물관 옆 용산가족공원
-          </p> */}
-          {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)}
+          </p>
+          {/* {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)} */}
 
           <p className="overlay">
             <Map
