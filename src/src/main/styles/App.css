@@ -423,17 +423,20 @@ body {
   height: 500px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/002.jpg"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
-  /* background-position: center; 이미지의 위치를 중앙으로 설정 */
-  background-repeat: no-repeat; /* 이미지 반복 없음 */
+  background-position: center;
+  /* background-repeat: no-repeat; 이미지 반복 없음 */
   position: relative;
   display: flex;
-  /* justify-content: center; 수평 중앙 정렬 */
-  /* align-items: center; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .location .contents {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  word-wrap: break-word; /* 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-ExtraBold";
   color: #ff5f9a;
 }
