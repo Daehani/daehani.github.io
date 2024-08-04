@@ -68,7 +68,7 @@ function App() {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
       },
-      size: new naver.maps.Size(400, 300)
+      size: new naver.maps.Size(400, 250)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
@@ -128,11 +128,11 @@ function App() {
 
 
         {/* 지도 */}
-        <p className="category font-script">
-            용산가족공원 연못 옆 버드나무 아래
-        </p>
-        {locationText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-        <div className="location">  
+        <div className="location">
+          <p className="category font-script">
+              용산가족공원 연못 옆 버드나무 아래
+          </p>
+          {locationText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           <p className="overlay">
             <Map
             assetsBaseUrl={assetsBaseUrl}
