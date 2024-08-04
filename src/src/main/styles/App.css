@@ -430,7 +430,8 @@ body {
 }
 
 .location .contents {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   font-family: "Pretendard-ExtraBold";
   color: #ff5f9a;
 }
