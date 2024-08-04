@@ -451,7 +451,7 @@ body {
 
 .location .overlay {
   position: absolute;
-  top: 260px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 240px;  /* 최하단에서 약간의 마진 (20px) */
   left: 40px;
   display: flex;
   /* width: 600px; */
