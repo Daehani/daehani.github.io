@@ -10,6 +10,10 @@
   src: url("https://daehani.github.io//assets/fonts/Pretendard-Bold.woff");
 }
 @font-face {
+  font-family: "Pretendard-Medium";
+  src: url("https://daehani.github.io//assets/fonts/Pretendard-Medium.woff");
+}
+@font-face {
   font-family: "Pretendard-Regular";
   src: url("https://daehani.github.io//assets/fonts/Pretendard-Regular.woff");
 }
@@ -214,7 +218,7 @@ body {
 } */
 
 .invitation .contents .where {
-  font-weight: 400;
+  font-family: "Pretendard-Medium", serif;
 }
 
 .bridge-image {
