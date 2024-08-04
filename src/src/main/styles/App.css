@@ -430,7 +430,7 @@ body {
 
 .location .category1 {
   position: absolute;
-  top: 100px;
+  top: 70px;
   text-align: center;
   font-family: "Pretendard-ExtraBold";
   color: #ffffff;
@@ -438,7 +438,7 @@ body {
 
 .location .category2 {
   position: absolute;
-  top: 110px;
+  top: 100px;
   text-align: center;
   font-family: "Pretendard-ExtraBold";
   color: #ffffff;
@@ -446,14 +446,14 @@ body {
 
 .location .contents1 {
   position: absolute;
-  top: 170px;
+  top: 140px;
   text-align: center;
   font-family: "Pretendard-Medium";
   color: #ffffff;
 }
 .location .contents2 {
   position: absolute;
-  top: 180px;
+  top: 165px;
   text-align: center;
   font-family: "Pretendard-Medium";
   color: #ffffff;
@@ -597,7 +597,7 @@ input[type="button"]:disabled {
 .information .container .item {
   font-size: 1rem;
   padding: 0;
-  margin: 0.5rem 0 0.5rem 0;
+  margin: 0.25rem 0 0.25rem 0;
 }
 .information .container .item .inner {
   /* font-size: 0.875rem; */

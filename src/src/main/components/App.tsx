@@ -142,6 +142,10 @@ function App() {
           </p>
         </div>
         <div className="information">
+          <p className="contents"> <span>&nbsp;</span> </p>
+          <p className="contents"> <span>&nbsp;</span> </p>
+          <p className="contents"> <span>&nbsp;</span> </p>
+
           {informations.map((it, index) => {
             return <div className="container" key={index}>
               <div>
