@@ -13,8 +13,9 @@ function App() {
     "우리만의 여행을 시작하려 합니다.\n" +
     "\n" +
     "이 특별한 순간에 함께해 주실\n" +
-    "고마운 분들을 초대합니다.";
-  const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
+    "고마운 분들을 초대합니다.\n";
+  const inviteText2 = "\n" +
+    "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
   const locationText = "서울 용산구 서빙고로 137\n" +
     "국립중앙박물관 옆 용산가족공원";
@@ -124,7 +125,7 @@ function App() {
             대한과 지수 결혼합니다.
           </p>   
           {inviteText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          {inviteText2.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {inviteText2.split("\n").map((it, index) => <p key={index} className="contents where">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
         </div>
 
 
