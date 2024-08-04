@@ -433,20 +433,20 @@ body {
 .location .overlay {
   position: absolute;
   top: 20px;  /* 최하단에서 약간의 마진 (20px) */
-  bottom: 20px;  /* 최하단에서 약간의 마진 (20px) */
-  left: 0;
+  /* bottom: 20px;  최하단에서 약간의 마진 (20px) */
+  left: 20px;
   right: 0;
   display: flex;
   /* justify-content: center; 수평 중앙 정렬 */
-  max-width: 90%;  /* 이미지의 최대 너비를 컨테이너 너비의 90%로 제한 */
+  /* max-width: 90%;  이미지의 최대 너비를 컨테이너 너비의 90%로 제한 */
   /* max-height: 100px; 이미지의 최대 높이를 100px로 제한, 필요에 따라 조정 가능 */
 }
 
-.location .category {
+/* .location .category {
   margin: 3rem 0 1rem 0;
   font-family: "Pretendard-ExtraBold";
   color: #ff5f9a;
-}
+} */
 
 
 .maps {
