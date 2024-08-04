@@ -430,7 +430,7 @@ body {
 }
 
 .location .contents {
-  position: relative;
+  position: absolute;
   font-family: "Pretendard-ExtraBold";
   color: #ff5f9a;
 }
@@ -440,7 +440,7 @@ body {
   position: absolute;
   top: 200px;  /* 최하단에서 약간의 마진 (20px) */
   /* bottom: 20px;  최하단에서 약간의 마진 (20px) */
-  /* left: 15px; */
+  left: 15px;
   display: flex;
   /* width: 600px; */
   justify-content: center; /*수평 중앙 정렬*/
