@@ -425,8 +425,10 @@ body {
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   /* background-position: center; 이미지의 위치를 중앙으로 설정 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
-  position: relative; /* 오버레이를 절대 위치로 설정하기 위한 기준 */
+  /* position: relative; */
   display: flex;
+  justify-content: center; /*수평 중앙 정렬*/
+  align-items: center;
 }
 
 .location .contents {
@@ -444,7 +446,6 @@ body {
   left: 15px;
   display: flex;
   /* width: 600px; */
-  justify-content: center; /*수평 중앙 정렬*/
   max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/
   /* max-height: 100px; 이미지의 최대 높이를 100px로 제한, 필요에 따라 조정 가능 */
 }
