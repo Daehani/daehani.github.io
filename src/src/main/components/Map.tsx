@@ -45,11 +45,11 @@ const Map = ({assetsBaseUrl}: MapProps) => {
           <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/navermap.png`}/></div></div>
           <div className="vendor">네이버 지도</div>
         </div>
-        <div className="divider"><div className="stroke"></div></div>
+        {/* <div className="divider"><div className="stroke"></div></div>
         <div className="link" style={{'flex': '3 0'}} data-name="kakaonavi" onClick={handleClickLink}>
           <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/kakaonavi.png`}/></div></div>
           <div className="vendor">카카오맵</div>
-        </div>
+        </div> */}
         <div className="divider"><div className="stroke"></div></div>
         <div className="link" style={{'flex': '2 0'}}  data-name="tmap" onClick={handleClickLink}>
           <div className="image"><div className="inner"><img src={`${assetsBaseUrl}/tmap.png`}/></div></div>

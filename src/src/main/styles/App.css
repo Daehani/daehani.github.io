@@ -437,7 +437,7 @@ body {
   left: 20px;
   /* right: 0; */
   display: flex;
-  width: 300px;
+  width: 600px;
   /* justify-content: center; 수평 중앙 정렬 */
   max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/
   /* max-height: 100px; 이미지의 최대 높이를 100px로 제한, 필요에 따라 조정 가능 */
