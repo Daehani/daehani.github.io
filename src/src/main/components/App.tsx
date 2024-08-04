@@ -67,8 +67,8 @@ function App() {
       zoomControlOptions: {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
-      },
-      size: new naver.maps.Size(335, 300)
+      }
+      // size: new naver.maps.Size(335, 300)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
@@ -76,6 +76,29 @@ function App() {
       position: center,
       map: map
     });
+    resize();
+      window.addEventListener('resize', resize);
+      
+      function resize() {
+          var mapWidth = window.innerWidth;
+          var mapHeight;
+      
+          if (mapWidth <= 380) {
+              // mapWidth = '335px';
+              // mapHeight = '300px';
+              mapWidth = 335;
+              mapHeight = 300;
+          } else if (mapWidth <= 480) {
+              mapWidth = 400;
+              mapHeight = 300;
+          } else {
+              mapWidth = 460;
+              mapHeight = 300;
+          }
+          // document.getElementById('map').style.width = mapWidth;
+          // document.getElementById('map').style.height = mapHeight;
+          map.setSize(new naver.maps.Size());
+      }
   }
 
   // function handleImageClick(photoIndex: number) {
