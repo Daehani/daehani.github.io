@@ -32,7 +32,7 @@ function App() {
   // const photosContinuable: Array<string> = [];
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
-  const introImageUrl = `${photoBaseUrl}/000.png`;
+  const introImageUrl = `${photoBaseUrl}/top.gif`;
   // const bridgeImageUrl = `${photoBaseUrl}/031.jpg`;
   
   // const photoRows = 2;
@@ -112,6 +112,7 @@ function App() {
         <div className="intro">
           <div className="overlay" />
           <div className="border" />
+          {/* <img src={introImageUrl} className="image" /> */}
           <img src={introImageUrl} className="image" />
         </div>
 

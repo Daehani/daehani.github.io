@@ -1,10 +1,6 @@
 @import "~@flaticon/flaticon-uicons/css/solid/all";
 /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"); */
 
-/* @font-face {
-  font-family: "Francisco";
-  src: url("https://daehani.github.io//assets/fonts/Francisco.woff");
-} */
 @font-face {
   font-family: "Pretendard-ExtraBold";
   src: url("https://daehani.github.io//assets/fonts/Pretendard-ExtraBold.woff");
@@ -421,7 +417,7 @@ body {
   /* margin: 3rem 0 1rem 0; */
   width: 100%;               /* 컨테이너의 너비 */
   height: 500px;             /* 컨테이너의 높이 */
-  background-image: url("../../../public/assets/photos/002.jpg"); /* 배경 이미지 URL */
+  background-image: url("../../../public/assets/photos/tree.png"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   background-position: center;
   /* background-repeat: no-repeat; 이미지 반복 없음 */
@@ -439,6 +435,7 @@ body {
   /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-ExtraBold";
   color: #ff5f9a;
+  margin: 0 0 0.5rem 0;
 }
 
 .location .contents {
