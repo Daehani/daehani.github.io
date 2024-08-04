@@ -169,7 +169,7 @@ body {
 }
 
 .category {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #ff2b76;
   /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
@@ -180,6 +180,10 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   margin: 3rem 0 3rem 0;
+}
+
+.contents {
+  line-height: 0.5rem;
 }
 
 .font-script {
@@ -205,8 +209,12 @@ body {
   font-family: "Pretendard-Bold", serif;
 }
 
-.invitation .contents {
+/* .invitation .contents {
   line-height: 0.5rem;
+} */
+
+.invitation .contents .where {
+  font-weight: 400;
 }
 
 .bridge-image {
