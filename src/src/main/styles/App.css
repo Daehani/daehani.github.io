@@ -418,7 +418,7 @@ body {
 .location {
   /* margin: 3rem 0 1rem 0; */
   width: 100%;               /* 컨테이너의 너비 */
-  height: 700px;             /* 컨테이너의 높이 */
+  height: 600px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/tree.png"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   background-position: center;
@@ -432,21 +432,22 @@ body {
 
 .location .category {
   position: absolute;
-  top: 50px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 100px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
   /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-ExtraBold";
-  color: #ff2b76;
+  color: #ffffff;
   margin: 0 0 0.5rem 0;
 }
 
 .location .contents {
   position: absolute;
-  top: 150px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 200px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
   /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
-  font-family: "Pretendard-Bold";
+  font-family: "Pretendard-Medium";
   color: #ffffff;
+  margin: 0 0 0.5rem 0;
 }
 
 
