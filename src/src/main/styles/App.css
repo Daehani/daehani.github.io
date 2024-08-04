@@ -432,13 +432,22 @@ body {
   justify-content: center;
 }
 
+.location .category {
+  position: absolute;
+  top: 50px;  /* 최하단에서 약간의 마진 (20px) */
+  text-align: center;
+  /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
+  font-family: "Pretendard-ExtraBold";
+  color: #ff5f9a;
+}
+
 .location .contents {
-  /* display: flex;
-  flex-direction: column; */
+  position: absolute;
+  top: 100px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
   word-wrap: break-word; /* 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-ExtraBold";
-  color: #ff5f9a;
+  color: #ffffff;
 }
 
 
@@ -452,12 +461,6 @@ body {
   max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/
   /* max-height: 100px; 이미지의 최대 높이를 100px로 제한, 필요에 따라 조정 가능 */
 }
-
-/* .location .category {
-  margin: 3rem 0 1rem 0;
-  font-family: "Pretendard-ExtraBold";
-  color: #ff5f9a;
-} */
 
 
 .maps {
