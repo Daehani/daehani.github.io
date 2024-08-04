@@ -83,8 +83,8 @@ function App() {
         var mapHeight = 300;
         mapWidth = mapWidth * 0.9
 
-        if (mapWidth >= 450) {
-            mapWidth = 400;
+        if (mapWidth >= 490) {
+            mapWidth = 440;
         }
         // } else if (mapWidth <= 480) {
         //     mapWidth = 400;
