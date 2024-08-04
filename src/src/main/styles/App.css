@@ -581,9 +581,10 @@ input[type="button"]:disabled {
 }
 
 .information .container .subtitle {
-  font-size: 1.1rem;
-  font-family: "Pretendard-Bold", serif;
+  font-size: 1rem;
+  font-family: "Pretendard-Medium", serif;
   color: #ff2b76;
+  margin: 1rem 0 0.8rem 0;
   /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
   background: -o-linear-gradient(right, #B08E82, #E5CACC);
   background: -moz-linear-gradient(right, #B08E82, #E5CACC);
@@ -596,7 +597,7 @@ input[type="button"]:disabled {
 .information .container .item {
   font-size: 1rem;
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 .information .container .item .inner {
   /* font-size: 0.875rem; */
@@ -615,7 +616,7 @@ input[type="button"]:disabled {
 }
 
 .tail .contents {
-  font-family: "Pretendard-ExtraBold";
+  font-family: "Pretendard-Bold";
   color: #ff2b76;
 }
 

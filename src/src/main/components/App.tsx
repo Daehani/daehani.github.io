@@ -169,6 +169,9 @@ function App() {
         
         <div className="tail">
           {tailText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
+          <p className="contents"> <span>&nbsp;</span> </p>
+          <p className="contents"> <span>&nbsp;</span> </p>
+          <p className="contents"> <span>&nbsp;</span> </p>
         </div>
 
         {/* </div> */}
