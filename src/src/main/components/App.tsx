@@ -71,11 +71,11 @@ function App() {
     };
     
     const map = new naver.maps.Map('map', mapOptions);
-    map.setSize(10, 10);
-    // const marker = new naver.maps.Marker({
-    //   position: center,
-    //   map: map
-    // });
+    // map.setSize(10, 10);
+    const marker = new naver.maps.Marker({
+      position: center,
+      map: map
+    });
   }
 
   // function handleImageClick(photoIndex: number) {
