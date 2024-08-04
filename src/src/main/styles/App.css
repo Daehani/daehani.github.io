@@ -427,8 +427,8 @@ body {
   background-repeat: no-repeat; /* 이미지 반복 없음 */
   position: relative;
   display: flex;
-  justify-content: center; /*수평 중앙 정렬*/
-  align-items: center;
+  /* justify-content: center; 수평 중앙 정렬 */
+  /* align-items: center; */
 }
 
 .location .contents {
