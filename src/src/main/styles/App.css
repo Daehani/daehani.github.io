@@ -417,7 +417,7 @@ body {
 
 .location {
   width: 100%;               /* 컨테이너의 너비 */
-  height: 660px;             /* 컨테이너의 높이 */
+  height: 670px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/tree.png"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   background-position: center;
@@ -460,7 +460,7 @@ body {
   font-family: "Pretendard-Medium";
   color: #ffffff;
 }
-.location .contents2 {
+.location .contents3 {
   position: absolute;
   top: 170px;
   text-align: center;
@@ -472,7 +472,7 @@ body {
 
 .location .overlay {
   position: absolute;
-  top: 230px;
+  top: 240px;
   left: 40px;
   display: flex;
   max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/

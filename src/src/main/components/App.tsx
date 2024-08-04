@@ -133,6 +133,7 @@ function App() {
           <p className="category2"> 버드나무 아래</p>
           <p className="contents1"> 서울 용산구 서빙고로 137 </p>
           <p className="contents2"> 국립중앙박물관 옆 용산가족공원 </p>
+          <p className="contents3"> 정확한 위치는 아래 지도 링크로 확인해 주세요. </p>
           {/* {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)} */}
           <p className="overlay">
             <Map
