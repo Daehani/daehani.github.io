@@ -434,7 +434,6 @@ body {
   position: absolute;
   top: 100px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
-  /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-ExtraBold";
   color: #ffffff;
   margin: 0 0 0.5rem 0;
@@ -444,7 +443,6 @@ body {
   position: absolute;
   top: 150px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
-  /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
   font-family: "Pretendard-Medium";
   color: #ffffff;
   margin: 0 0 0.5rem 0;
@@ -453,7 +451,7 @@ body {
 
 .location .overlay {
   position: absolute;
-  top: 300px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 250px;  /* 최하단에서 약간의 마진 (20px) */
   /* bottom: 20px;  최하단에서 약간의 마진 (20px) */
   left: 40px;
   display: flex;
