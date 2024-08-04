@@ -129,10 +129,10 @@ function App() {
 
         {/* 지도 */}
         <div className="location">
-          <p className="category font-script">
+          <p className="contents">
               용산가족공원 연못 옆 버드나무 아래
           </p>
-          {locationText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)}
           <p className="overlay">
             <Map
             assetsBaseUrl={assetsBaseUrl}
