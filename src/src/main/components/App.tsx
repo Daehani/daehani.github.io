@@ -68,14 +68,14 @@ function App() {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
       },
-      size: new naver.maps.Size(337, 300)
+      size: new naver.maps.Size(335, 300)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
-    // const marker = new naver.maps.Marker({
-    //   position: center,
-    //   map: map
-    // });
+    const marker = new naver.maps.Marker({
+      position: center,
+      map: map
+    });
   }
 
   // function handleImageClick(photoIndex: number) {
