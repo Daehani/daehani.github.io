@@ -428,22 +428,35 @@ body {
   justify-content: center;
 }
 
-.location .category {
+.location .category1 {
   position: absolute;
   top: 100px;
   text-align: center;
   font-family: "Pretendard-ExtraBold";
   color: #ffffff;
-  margin: 0 0 0.5rem 0;
 }
 
-.location .contents {
+.location .category2 {
+  position: absolute;
+  top: 110px;
+  text-align: center;
+  font-family: "Pretendard-ExtraBold";
+  color: #ffffff;
+}
+
+.location .contents1 {
   position: absolute;
   top: 170px;
   text-align: center;
   font-family: "Pretendard-Medium";
   color: #ffffff;
-  margin: 0 0 0.5rem 0;
+}
+.location .contents2 {
+  position: absolute;
+  top: 180px;
+  text-align: center;
+  font-family: "Pretendard-Medium";
+  color: #ffffff;
 }
 
 
