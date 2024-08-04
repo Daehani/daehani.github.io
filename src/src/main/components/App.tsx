@@ -81,19 +81,21 @@ function App() {
     function resize() {
         var mapWidth = window.innerWidth;
         var mapHeight;
-    
-        if (mapWidth <= 380) {
-            // mapWidth = '335px';
-            // mapHeight = '300px';
-            mapWidth = 335;
-            mapHeight = 300;
-        } else if (mapWidth <= 480) {
-            mapWidth = 400;
-            mapHeight = 300;
-        } else {
-            mapWidth = 460;
-            mapHeight = 300;
-        }
+        mapWidth = mapWidth * 0.9
+        mapHeight = 300
+
+        // if (mapWidth <= 380) {
+        //     // mapWidth = '335px';
+        //     // mapHeight = '300px';
+        //     mapWidth = 335;
+        //     mapHeight = 300;
+        // } else if (mapWidth <= 480) {
+        //     mapWidth = 400;
+        //     mapHeight = 300;
+        // } else {
+        //     mapWidth = 440;
+        //     mapHeight = 300;
+        // }
         // document.getElementById('map').style.width = mapWidth;
         // document.getElementById('map').style.height = mapHeight;
         map.setSize(new naver.maps.Size(mapWidth, mapHeight));
