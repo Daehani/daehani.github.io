@@ -418,7 +418,7 @@ body {
 .location {
   /* margin: 3rem 0 1rem 0; */
   width: 100%;               /* 컨테이너의 너비 */
-  height: 650px;             /* 컨테이너의 높이 */
+  height: 700px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/tree.png"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
   background-position: center;
@@ -453,7 +453,7 @@ body {
 
 .location .overlay {
   position: absolute;
-  top: 200px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 300px;  /* 최하단에서 약간의 마진 (20px) */
   /* bottom: 20px;  최하단에서 약간의 마진 (20px) */
   left: 40px;
   display: flex;
