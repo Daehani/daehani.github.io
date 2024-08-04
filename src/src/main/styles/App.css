@@ -462,7 +462,7 @@ body {
 }
 .location .contents3 {
   position: absolute;
-  top: 185px;
+  top: 195px;
   text-align: center;
   font-family: "Pretendard-Medium";
   color: #ffffff;
@@ -613,9 +613,9 @@ input[type="button"]:disabled {
   /* font-size: 0.875rem; */
   font-size: 0.8rem;
   color: #00000080;
-  line-height: 2.5rem;
+  line-height: 1rem;
   padding: 0;
-  margin: -1rem 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .appendix {
