@@ -390,7 +390,6 @@ body {
 
 .calendar .row .item.subtitle {
   text-align: center;
-
   font-size: 1rem;
   /* color: #000000a0; */
   color: #ff5f9a;
@@ -424,11 +423,18 @@ body {
   height: 500px;             /* 컨테이너의 높이 */
   background-image: url("../../../public/assets/photos/002.jpg"); /* 배경 이미지 URL */
   background-size: cover;    /* 이미지가 컨테이너 전체를 커버하도록 조절 */
-  background-position: center; /* 이미지의 위치를 중앙으로 설정 */
+  /* background-position: center; 이미지의 위치를 중앙으로 설정 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
   position: relative; /* 오버레이를 절대 위치로 설정하기 위한 기준 */
   display: flex;
 }
+
+.location .contents {
+  position: relative;
+  font-family: "Pretendard-ExtraBold";
+  color: #ff5f9a;
+}
+
 
 .location .overlay {
   position: absolute;
