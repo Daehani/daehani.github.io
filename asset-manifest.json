@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31f1bff8.css",
-    "main.js": "/static/js/main.2828fa4a.js",
+    "main.js": "/static/js/main.5f554fa8.js",
     "static/js/206.22c11b3b.chunk.js": "/static/js/206.22c11b3b.chunk.js",
     "static/media/tree.png": "/static/media/tree.ae01cb70299bd904699d.png",
     "static/media/uicons-solid-rounded-N5CQNTC6.eot": "/static/media/uicons-solid-rounded-N5CQNTC6.ebf71074e49f1cc4e860.eot",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.31f1bff8.css",
-    "static/js/main.2828fa4a.js"
+    "static/js/main.5f554fa8.js"
   ]
 }
