@@ -434,6 +434,7 @@ body {
   text-align: center;
   font-family: "Pretendard-ExtraBold";
   color: #ffffff;
+  font-size: 1.1rem;
 }
 
 .location .category2 {
@@ -462,7 +463,7 @@ body {
 
 .location .overlay {
   position: absolute;
-  top: 220px;
+  top: 230px;
   left: 40px;
   display: flex;
   max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/
@@ -582,7 +583,7 @@ input[type="button"]:disabled {
 
 .information .container .subtitle {
   font-size: 1rem;
-  font-family: "Pretendard-Medium", serif;
+  font-family: "Pretendard-Bolda", serif;
   color: #ff2b76;
   margin: 1rem 0 0.8rem 0;
   /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
