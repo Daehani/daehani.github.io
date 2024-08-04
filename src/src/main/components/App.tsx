@@ -68,7 +68,7 @@ function App() {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
       },
-      size: new naver.maps.Size(340, 300)
+      size: new naver.maps.Size(350, 300)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
@@ -135,7 +135,7 @@ function App() {
               버드나무 아래
           </p>
           <p className="contents">
-              서울 용산구 서빙고로 137<br></br>
+              서울 용산구 서빙고로 137<br></br><br></br>
               국립중앙박물관 옆 용산가족공원
           </p>
           {/* {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)} */}
