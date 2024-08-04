@@ -130,8 +130,9 @@ function App() {
         {/* 지도 */}
         <div className="location">
           <p className="contents">
-              용산가족공원 연못 옆 버드나무 아래
+              용산가족공원 연못 옆<br></br> 버드나무 아래
           </p>
+          <p></p>
           {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)}
           <p className="overlay">
             <Map
