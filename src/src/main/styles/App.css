@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 19px;
   font-family: "Pretendard-Regular", serif;
   /* font-family: "Gowun Batang", serif; */
   background: #5D555640;
@@ -119,11 +119,6 @@ body {
   margin: 0 0 0.5rem 0;
 }
 
-.main .header .abstract .who {
-  font-size: 1.2rem;
-  color: #181818;
-}
-
 .main .header .abstract .who .line {
   margin: 0 1.1rem;
   width: 1px;
@@ -173,7 +168,7 @@ body {
 }
 
 .category {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #ff2b76;
   /* background: -webkit-linear-gradient(left, #B08E82, #E5CACC);
