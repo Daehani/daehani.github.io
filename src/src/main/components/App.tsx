@@ -68,7 +68,7 @@ function App() {
           style: naver.maps.ZoomControlStyle.SMALL,
           position: naver.maps.Position.TOP_RIGHT
       },
-      size: new naver.maps.Size(500, 500)
+      size: new naver.maps.Size(400, 300)
     };
     
     const map = new naver.maps.Map('map', mapOptions);
