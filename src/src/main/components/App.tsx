@@ -124,7 +124,7 @@ function App() {
             대한과 지수 결혼합니다.
           </p>   
           {inviteText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          {inviteText2.split("\n").map((it, index) => <p key={index} className="contents where">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {inviteText2.split("\n").map((it, index) => <p key={index} className="contents-where">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
         </div>
 
 

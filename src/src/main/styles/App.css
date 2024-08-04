@@ -213,11 +213,8 @@ body {
   font-family: "Pretendard-Bold", serif;
 }
 
-/* .invitation .contents {
+.invitation .contents-where {
   line-height: 0.5rem;
-} */
-
-.invitation .contents .where {
   font-family: "Pretendard-Medium", serif;
 }
 
