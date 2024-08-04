@@ -443,10 +443,10 @@ body {
 
 .location .contents {
   position: absolute;
-  top: 100px;  /* 최하단에서 약간의 마진 (20px) */
+  top: 150px;  /* 최하단에서 약간의 마진 (20px) */
   text-align: center;
-  word-wrap: break-word; /* 긴 단어가 박스 내에서 줄바꿈 되도록 */
-  font-family: "Pretendard-ExtraBold";
+  /* word-wrap: break-word; 긴 단어가 박스 내에서 줄바꿈 되도록 */
+  font-family: "Pretendard-Bold";
   color: #ffffff;
 }
 
