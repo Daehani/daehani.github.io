@@ -22,8 +22,12 @@ function App() {
     ["피로연 안내", ["국립중앙박물관 거울못식장 오후 2시"]],
     ["화환 반입", ["공원 운영정책에 따라 정중히 사양합니다."]]
   ];
-  const tailText = "저희 결혼을 축하해 주셔서 정말 감사합니다.\n" +
-    "가을 날 편안한 차림으로 함께 즐겨요."
+  const tailText = "저희의 행복한 순간을\n" +
+    "함께 축하해 주셔서 감사합니다.\n" +
+    "소중한 날,\n" +
+    "함께 기쁨을 나눠요."
+
+     
               
 
   // const photos = [...new Array(34).keys()].map(it => (it + 1).toString().padStart(3, "0")).filter(it => !["006", "011"].includes(it));
