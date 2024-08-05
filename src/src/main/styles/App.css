@@ -45,6 +45,7 @@ body {
   display: flex;
   justify-content: center;
 
+  margin: 0px;
   overflow-x: hidden;
   overflow-y: scroll;
 
