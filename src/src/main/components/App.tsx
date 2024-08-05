@@ -33,7 +33,6 @@ function App() {
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
   const introImageUrl = `${photoBaseUrl}/top.gif`;
-  // const bridgeImageUrl = `${photoBaseUrl}/031.jpg`;
   
   // const photoRows = 2;
   // const photoColumns = 16;
@@ -81,7 +80,7 @@ function App() {
     function resize() {
         var mapWidth = window.innerWidth;
         var mapHeight = 300;
-        mapWidth = mapWidth * 0.9
+        mapWidth = mapWidth * 0.7
 
         if (mapWidth >= 490) {
             mapWidth = 435;
