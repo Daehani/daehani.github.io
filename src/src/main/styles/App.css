@@ -21,8 +21,8 @@
 html {
   font-size: 19px;
   font-family: "Pretendard-Regular", serif;
-  /* font-family: "Gowun Batang", serif; */
-  background: #5D555640;
+  /* background: #5D555640; */
+  background: none;
   color: #181818;
 }
 
@@ -57,8 +57,6 @@ body {
 }
 
 .main {
-  margin: 0;
-  padding: 0;
   max-width: 480px;
   position: absolute;
   background: white;
