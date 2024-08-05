@@ -60,18 +60,12 @@ function App() {
     resize();
     window.addEventListener('resize', resize);
     function resize() {
-        var mapWidth = window.innerWidth;
+        var mapWidth = window.innerWidth * 0.9;
         var mapHeight = 300;
-        mapWidth = mapWidth * 0.9
 
         if (mapWidth >= 490) {
             mapWidth = 435;
         }
-        // } else if (mapWidth <= 480) {
-        //     mapWidth = 400;
-        // } else {
-        //     mapWidth = 440;
-        // }
         map.setSize(new naver.maps.Size(mapWidth, mapHeight));
     }
   }
