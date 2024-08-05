@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/App.css';
 import 'react-slideshow-image/dist/styles.css';
-import ImageViewer from './ImageViewer';
 import Map from './Map';
-import Toast, { ToastLevel } from './Toast';
+// import ImageViewer from './ImageViewer';
+// import Toast, { ToastLevel } from './Toast';
 
 declare const naver: any;
 
@@ -16,8 +16,6 @@ function App() {
     "고마운 분들을 초대합니다.\n";
   const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
-  // const locationText = "서울 용산구 서빙고로 137\n" +
-  //   "국립중앙박물관 옆 용산가족공원";
   const informations = [
     ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
@@ -28,7 +26,7 @@ function App() {
     "가을 날 편안한 차림으로 함께 즐겨요."
               
 
-  const photos = [...new Array(34).keys()].map(it => (it + 1).toString().padStart(3, "0")).filter(it => !["006", "011"].includes(it));
+  // const photos = [...new Array(34).keys()].map(it => (it + 1).toString().padStart(3, "0")).filter(it => !["006", "011"].includes(it));
   // const photosContinuable: Array<string> = [];
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
@@ -36,22 +34,22 @@ function App() {
   
   // const photoRows = 2;
   // const photoColumns = 16;
-  const [imageMode, setImageMode] = useState(false);
-  const [imageIndex, setImageIndex] = useState(0);
+  // const [imageMode, setImageMode] = useState(false);
+  // const [imageIndex, setImageIndex] = useState(0);
 
 
   useEffect(() => {
     init();
   }, []);
 
-  useEffect(() => {
-    const body = document.querySelector('body')!;
-    if (imageMode) {
-      body.classList.add('no-scroll');
-    } else {
-      body.classList.remove('no-scroll');
-    }
-  }, [imageMode]);
+  // useEffect(() => {
+  //   const body = document.querySelector('body')!;
+  //   if (imageMode) {
+  //     body.classList.add('no-scroll');
+  //   } else {
+  //     body.classList.remove('no-scroll');
+  //   }
+  // }, [imageMode]);
 
   function init() {
     map();
@@ -80,7 +78,7 @@ function App() {
     function resize() {
         var mapWidth = window.innerWidth;
         var mapHeight = 300;
-        mapWidth = mapWidth * 0.7
+        mapWidth = mapWidth * 0.9
 
         if (mapWidth >= 490) {
             mapWidth = 435;
@@ -94,44 +92,27 @@ function App() {
     }
   }
 
-  // function handleImageClick(photoIndex: number) {
-  //   setImageIndex(photoIndex);
-  //   setImageMode(true);
-  // }
-
   return (
     <>
-      <ImageViewer 
+      {/* <ImageViewer 
         imageMode={imageMode}
         setImageMode={setImageMode}
         photos={photos}
         photoBaseUrl={photoBaseUrl}
         imageIndex={imageIndex}
-      />
-      <Toast 
+      /> */}
+      {/* <Toast 
         text=""
         visible={false}
         level={ToastLevel.success}
-      />
+      /> */}
       <div className="main" >
-
-        {/* 머릿말 */}
-        {/* <div className="header"> */}
-          {/* <div className="abstract"> */}
-            {/* <div className="mark">WEDDING INVITATION</div> */}
-            {/* <div className="who"><span>AAA </span><div className="line"><div className="stroke"></div></div><span> BBB</span></div> */}
-          {/* </div> */}
-        {/* </div> */}
-
         {/* 대문사진 */}
         <div className="intro">
           <div className="overlay" />
           <div className="border" />
-          {/* <img src={introImageUrl} className="image" /> */}
           <img src={introImageUrl} className="image" />
         </div>
-
-        {/* <div className="context"> */}
 
         {/* 초대글 */}       
         <div className="invitation">
@@ -141,7 +122,6 @@ function App() {
           {inviteText.split("\n").map((it, index) => <p key={index} className="contents">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {inviteText2.split("\n").map((it, index) => <p key={index} className="contents-where">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
         </div>
-
 
         {/* 지도 */}
         <div className="location">
@@ -185,15 +165,12 @@ function App() {
           })}
         </div>
         
-        
         <div className="tail">
           {tailText.split("\n").map((it, index) => <p key={index} className="contents">{it}</p>)}
           <p className="contents"> <span>&nbsp;</span> </p>
           <p className="contents"> <span>&nbsp;</span> </p>
           <p className="contents"> <span>&nbsp;</span> </p>
         </div>
-
-        {/* </div> */}
 
       </div>
     </>
