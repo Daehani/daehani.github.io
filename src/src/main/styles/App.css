@@ -45,8 +45,6 @@ body {
   display: flex;
   justify-content: center;
 
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
   overflow-y: scroll;
 
@@ -59,6 +57,8 @@ body {
 }
 
 .main {
+  margin: 0;
+  padding: 0;
   max-width: 480px;
   position: absolute;
   background: white;
