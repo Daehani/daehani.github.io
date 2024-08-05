@@ -27,32 +27,15 @@ function App() {
     "소중한 날, 함께 기쁨을 나눠요."
 
      
-              
 
-  // const photos = [...new Array(34).keys()].map(it => (it + 1).toString().padStart(3, "0")).filter(it => !["006", "011"].includes(it));
-  // const photosContinuable: Array<string> = [];
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
   const introImageUrl = `${photoBaseUrl}/top.gif`;
-  
-  // const photoRows = 2;
-  // const photoColumns = 16;
-  // const [imageMode, setImageMode] = useState(false);
-  // const [imageIndex, setImageIndex] = useState(0);
 
 
   useEffect(() => {
     init();
   }, []);
-
-  // useEffect(() => {
-  //   const body = document.querySelector('body')!;
-  //   if (imageMode) {
-  //     body.classList.add('no-scroll');
-  //   } else {
-  //     body.classList.remove('no-scroll');
-  //   }
-  // }, [imageMode]);
 
   function init() {
     map();
@@ -97,18 +80,6 @@ function App() {
 
   return (
     <>
-      {/* <ImageViewer 
-        imageMode={imageMode}
-        setImageMode={setImageMode}
-        photos={photos}
-        photoBaseUrl={photoBaseUrl}
-        imageIndex={imageIndex}
-      /> */}
-      {/* <Toast 
-        text=""
-        visible={false}
-        level={ToastLevel.success}
-      /> */}
       <div className="main" >
         {/* 대문사진 */}
         <div className="intro">

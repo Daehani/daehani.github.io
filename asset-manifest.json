@@ -1,19 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b303af5.css",
+    "main.css": "/static/css/main.f3cc1371.css",
     "main.js": "/static/js/main.97c359f1.js",
     "static/js/206.22c11b3b.chunk.js": "/static/js/206.22c11b3b.chunk.js",
-    "static/media/uicons-solid-rounded-N5CQNTC6.eot": "/static/media/uicons-solid-rounded-N5CQNTC6.ebf71074e49f1cc4e860.eot",
-    "static/media/uicons-solid-straight-W4CCEH4W.eot": "/static/media/uicons-solid-straight-W4CCEH4W.e704a0f26ecd5add2611.eot",
     "static/media/tree.png": "/static/media/tree.4588acfed6c2dafcab2a.png",
-    "static/media/uicons-solid-rounded-UWVI4CEC.woff": "/static/media/uicons-solid-rounded-UWVI4CEC.9ce0ef5e6fa829ac32bd.woff",
-    "static/media/uicons-solid-straight-ITFA7HIK.woff": "/static/media/uicons-solid-straight-ITFA7HIK.ab88e50e21486ce8c779.woff",
-    "static/media/uicons-solid-rounded-IYSBBSWN.woff2": "/static/media/uicons-solid-rounded-IYSBBSWN.fc3e058f3a4c7819b24e.woff2",
-    "static/media/uicons-solid-straight-4DZ3VA4V.woff2": "/static/media/uicons-solid-straight-4DZ3VA4V.10a42bec98afb83391ab.woff2",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.0b303af5.css",
+    "static/css/main.f3cc1371.css",
     "static/js/main.97c359f1.js"
   ]
 }
