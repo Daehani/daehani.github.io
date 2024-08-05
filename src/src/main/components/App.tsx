@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import '../styles/App.css';
 import 'react-slideshow-image/dist/styles.css';
 import Map from './Map';
-// import ImageViewer from './ImageViewer';
-// import Toast, { ToastLevel } from './Toast';
 
 declare const naver: any;
 
