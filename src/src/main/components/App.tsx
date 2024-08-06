@@ -121,7 +121,9 @@ function App() {
                     {rows[0]}
                     {rows.length > 1 ? <>
                       <br />
-                      {rows.slice(1).map((inner, index3) => <span key={index3} className="inner">{inner}</span>)}
+                      {rows.slice(1).map((inner, index3) => 
+                        <> <span key={index3} className="inner">{inner}</span> <br /> </>
+                      )}
                     </> : <></>}
                   </p>;
                 }
