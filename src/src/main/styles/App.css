@@ -405,7 +405,7 @@ input[type="button"]:disabled {
 .information .container .item .inner {
   font-size: 0.8rem;
   color: #00000080;
-  line-height: 1rem;
+  line-height: 2.2rem;
   padding: 0;
   margin: 0 0 0 0;
 }
