@@ -403,10 +403,9 @@ input[type="button"]:disabled {
   margin: 0.25rem 0 0.25rem 0;
 }
 .information .container .item .inner {
-  /* font-size: 0.875rem; */
   font-size: 0.8rem;
   color: #00000080;
-  line-height: 2.2rem;
+  line-height: 1rem;
   padding: 0;
   margin: 0 0 0 0;
 }
