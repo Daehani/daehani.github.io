@@ -66,7 +66,7 @@ function App() {
     window.addEventListener('resize', resize);
     function resize() {
         var mapWidth = window.innerWidth * 0.9;
-        var mapHeight = 300;
+        var mapHeight = 250;
 
         if (mapWidth >= 490) {
             mapWidth = 435;
@@ -116,7 +116,7 @@ function App() {
           <p className="category2"> 버드나무 아래</p>
           {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {locationText3.split("\n").map((it, index) => <p key={index} className="contents3">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          <p className="maps">
+          <p className="maps-container">
             <Map assetsBaseUrl={assetsBaseUrl}/>
           </p>
           <p className="video-container">
