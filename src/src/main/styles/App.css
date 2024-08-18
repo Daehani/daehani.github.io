@@ -302,7 +302,7 @@ body {
   font-size: 0.8rem;
   margin: 0 0 1.5rem;
 }
-.location2 .overlay1 {
+.location2 .maps {
   /* position: absolute; */
   /* top: 240px; */
   /* left: 40px; */
@@ -313,7 +313,7 @@ body {
   margin-left: auto;
   margin-right: auto; */
 }
-.location2 .overlay2 {
+.location2 .video-container {
   /* position: absolute;
   top: 600px;
   left: 40px; */
@@ -329,7 +329,7 @@ body {
   margin: 0 auto;
 }
 
-.overlay2 iframe, .overlay2 img {
+.video-container iframe, .video-container img {
   position: absolute;
   top: 0;
   left: 0;

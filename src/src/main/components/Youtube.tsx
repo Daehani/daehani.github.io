@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+// import './youtube.css';  // 스타일 파일을 별도로 관리합니다.
 
-const YouTubeVideoWithThumbnail = () => {
+const YouTubeVideoWithThumbnail: React.FC = () => {
   const [isVideoVisible, setIsVideoVisible] = useState(false);
 
   const handleThumbnailClick = () => {
@@ -8,11 +9,9 @@ const YouTubeVideoWithThumbnail = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div className="video-container">
       {isVideoVisible ? (
         <iframe
-          width="400"
-          height="300"
           src="https://www.youtube.com/embed/flzdOMmfi28?autoplay=1"
           title="YouTube video player"
           frameBorder="0"
@@ -23,7 +22,7 @@ const YouTubeVideoWithThumbnail = () => {
         <img
           src="/assets/photos/thumb2.png"  //"YOUR_THUMBNAIL_IMAGE_URL"
           alt="Custom Thumbnail"
-          style={{ cursor: 'pointer', width: '400px', height: '300px' }}
+          className="thumbnail"
           onClick={handleThumbnailClick}
         />
       )}

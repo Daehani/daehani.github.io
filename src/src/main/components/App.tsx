@@ -75,8 +75,6 @@ function App() {
     }
   }
 
-  function youtube() {
-
   return (
     <>
       <div className="main" >
@@ -121,7 +119,7 @@ function App() {
           <p className="overlay1">
             <Map assetsBaseUrl={assetsBaseUrl}/>
           </p>
-          <p className="overlay2">
+          <p className="video-container">
             <YouTubeVideoWithThumbnail />
           </p>
         </div>
