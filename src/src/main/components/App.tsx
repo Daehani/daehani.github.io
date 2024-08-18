@@ -111,9 +111,9 @@ function App() {
           {/* <p className="space0"> <span>&nbsp;</span> </p> */}
           {/* <p className="space0"> <span>&nbsp;</span> </p> */}
           <p className="contents"> <span>&nbsp;</span> </p>
-          <p className="contents"> <span>&nbsp;</span> </p>
-          {locationText.split("\n").map((it, index) => <p key={index} className="contents1">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          <p className="contents"> <span>&nbsp;</span> </p>
+          {/* {locationText.split("\n").map((it, index) => <p key={index} className="contents1">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)} */}
+          <p className="category1"> 용산가족공원 연못 옆</p>
+          <p className="category2"> 버드나무 아래</p>
           {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {locationText3.split("\n").map((it, index) => <p key={index} className="contents3">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           <p className="contents"> <span>&nbsp;</span> </p>
