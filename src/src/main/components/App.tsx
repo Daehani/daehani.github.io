@@ -75,6 +75,8 @@ function App() {
     }
   }
 
+  function youtube() {
+
   return (
     <>
       <div className="main" >
@@ -116,7 +118,6 @@ function App() {
           <p className="category2"> 버드나무 아래</p>
           {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {locationText3.split("\n").map((it, index) => <p key={index} className="contents3">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          <p className="contents"> <span>&nbsp;</span> </p>
           <p className="overlay1">
             <Map assetsBaseUrl={assetsBaseUrl}/>
           </p>
