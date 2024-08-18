@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/App.css';
 import 'react-slideshow-image/dist/styles.css';
 import Map from './Map';
+import Youtube from './Youtube';
 
 declare const naver: any;
 
@@ -14,6 +15,11 @@ function App() {
     "고마운 분들을 초대합니다.\n";
   const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
+  const locationText = "용산가족공원 연못 옆\n" +
+    "버드나무 아래";
+  const locationText2 = "서울 용산구 서빙고로 137\n" +
+    "국립중앙박물관 옆 용산가족공원";
+  const locationText3 = "정확한 위치는 아래 지도 링크로 확인해 주세요.";
   const informations = [
     ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구 (서울역 출발)", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
@@ -22,9 +28,8 @@ function App() {
   ];
   const tailText = "저희의 행복한 순간을\n" +
     "함께 축하해 주셔서 감사합니다.\n" +
-    "소중한 날, 함께 기쁨을 나눠요."
+    "소중한 날, 함께 기쁨을 나눠요.";
 
-     
 
   const assetsBaseUrl = "/assets";
   const photoBaseUrl = `${assetsBaseUrl}/photos`;
@@ -90,19 +95,25 @@ function App() {
         </div>
 
         {/* 지도 */}
-        <div className="location">
-          <p className="category1"> 용산가족공원 연못 옆</p>
-          <p className="category2"> 버드나무 아래</p>
-          <p className="contents1"> 서울 용산구 서빙고로 137 </p>
-          <p className="contents2"> 국립중앙박물관 옆 용산가족공원 </p>
-          <p className="contents3"> 정확한 위치는 아래 지도 링크로 확인해 주세요. </p>
+        {/* <div className="location"> */}
+          {/* <p className="category1"> 용산가족공원 연못 옆</p> */}
+          {/* <p className="category2"> 버드나무 아래</p> */}
+          {/* <p className="contents1"> 서울 용산구 서빙고로 137 </p> */}
+          {/* <p className="contents2"> 국립중앙박물관 옆 용산가족공원 </p> */}
+          {/* <p className="contents3"> 정확한 위치는 아래 지도 링크로 확인해 주세요. </p> */}
           {/* {locationText.split("\n").map((it, index) => <p key={index} className="contents"> {it.trim() === '' ? <span>&nbsp;</span> : it} </p>)} */}
-          <p className="overlay">
-            <Map
-            assetsBaseUrl={assetsBaseUrl}
-            />
-          </p>
+          {/* <p className="overlay"> */}
+            {/* <Map assetsBaseUrl={assetsBaseUrl}/> */}
+          {/* </p> */}
+        {/* </div> */}
+
+        <div className="location2">
+          {locationText.split("\n").map((it, index) => <p key={index} className="contents1">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          {locationText3.split("\n").map((it, index) => <p key={index} className="contents3">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
+          <Map assetsBaseUrl={assetsBaseUrl}/>
         </div>
+        
         <div className="information">
           <p className="contents"> <span>&nbsp;</span> </p>
           <p className="contents"> <span>&nbsp;</span> </p>
