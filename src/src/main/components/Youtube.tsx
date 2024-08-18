@@ -13,7 +13,7 @@ const YouTubeVideoWithThumbnail = () => {
         <iframe
           width="400"
           height="200"
-          src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0"
+          src="https://www.youtube.com/embed/flzdOMmfi28?autoplay=0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

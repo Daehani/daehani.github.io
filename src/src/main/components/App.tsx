@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/App.css';
 import 'react-slideshow-image/dist/styles.css';
 import Map from './Map';
-import Youtube from './Youtube';
+import YouTubeVideoWithThumbnail from './Youtube';
 
 declare const naver: any;
 
@@ -111,7 +111,10 @@ function App() {
           {locationText.split("\n").map((it, index) => <p key={index} className="contents1">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           {locationText3.split("\n").map((it, index) => <p key={index} className="contents3">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
-          <Map assetsBaseUrl={assetsBaseUrl}/>
+          <p className="overlay">
+            <Map assetsBaseUrl={assetsBaseUrl}/>
+          </p>
+          <YouTubeVideoWithThumbnail />
         </div>
         
         <div className="information">
