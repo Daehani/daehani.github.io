@@ -12,7 +12,7 @@ const YouTubeVideoWithThumbnail = () => {
       {isVideoVisible ? (
         <iframe
           width="400"
-          height="200"
+          height="300"
           src="https://www.youtube.com/embed/flzdOMmfi28?autoplay=1"
           title="YouTube video player"
           frameBorder="0"
