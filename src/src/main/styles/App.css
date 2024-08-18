@@ -274,7 +274,6 @@ body {
   width: 100%;
   height: 1000px;
   text-align: center;
-  line-height: 0.5rem;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
@@ -295,23 +294,18 @@ body {
 .location2 .contents2 {
   color: #ffffff;
   font-family: "Pretendard-Medium";
+  line-height: 0.5rem;
 }
 .location2 .contents3 {
   color: #ffffff;
   font-family: "Pretendard-Medium";
   font-size: 0.8rem;
+  line-height: 0.5rem;
   margin: 0 0 1.5rem;
 }
 .location2 .maps {
-  /* position: absolute; */
-  /* top: 240px; */
-  /* left: 40px; */
   max-width: 90%;
-  margin: 0 0 0 40px;
-  /* text-align: center; */
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+  margin: 0 0 0 20px;
 }
 .location2 .video-container {
   /* position: absolute;
@@ -323,7 +317,7 @@ body {
   /* display: flex; */
   position: relative;
   width: 100%;
-  max-width: 90%;
+  max-width: 10%;
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   height: 0;
   margin: 0 auto;
@@ -337,10 +331,6 @@ body {
   height: 100%;
   border: 0;
 }
-
-
-
-
 
 
 .maps {
