@@ -15,11 +15,11 @@ function App() {
     "고마운 분들을 초대합니다.\n";
   const inviteText2 = "2024년 10월 6일 일요일 오후 1시\n" +
     "용산 가족 공원";
-  const locationText = "용산가족공원 연못 옆\n" +
-    "버드나무 아래";
+  // const locationText = "용산가족공원 연못 옆\n" +
+  //   "버드나무 아래";
   const locationText2 = "서울 용산구 서빙고로 137\n" +
     "국립중앙박물관 옆 용산가족공원";
-  const locationText3 = "정확한 위치는 아래 지도 링크로 확인해 주세요.";
+  const locationText3 = "아래 지도 및 영상을 통해 찾아오시는 길을 꼭 확인해 주세요.";
   const informations = [
     ["자가용 안내", ["국립중앙박물관 지하주차장 이용", "소액의 주차비용 발생, 양해 부탁드립니다.\n 최초 2시간 2000원, 초과 30분당 500원"]],
     ["대중교통 안내", ["4호선 이촌역 2번출구 (서울역 출발)", "경의중앙선 서빙고역 1번출구 도보 10분 이내"]],
@@ -66,7 +66,7 @@ function App() {
     window.addEventListener('resize', resize);
     function resize() {
         var mapWidth = window.innerWidth * 0.9;
-        var mapHeight = 200;
+        var mapHeight = 300;
 
         if (mapWidth >= 490) {
             mapWidth = 435;

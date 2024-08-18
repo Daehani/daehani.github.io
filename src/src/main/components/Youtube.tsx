@@ -23,7 +23,7 @@ const YouTubeVideoWithThumbnail = () => {
         <img
           src="/assets/photos/thumb2.png"  //"YOUR_THUMBNAIL_IMAGE_URL"
           alt="Custom Thumbnail"
-          style={{ cursor: 'pointer', width: '400px', height: '200px' }}
+          style={{ cursor: 'pointer', width: '400px', height: '300px' }}
           onClick={handleThumbnailClick}
         />
       )}
