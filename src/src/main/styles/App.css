@@ -305,18 +305,19 @@ body {
 .location2 .overlay1 {
   /* position: absolute; */
   /* top: 240px; */
-  left: 40px;
+  /* left: 40px; */
   max-width: 90%;
-  /* text-align: center;*/
-  display: block;
+  text-align: center;
+  /* display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 .location2 .overlay2 {
-  position: absolute;
+  /* position: absolute;
   top: 600px;
-  left: 40px;
+  left: 40px; */
   max-width: 90%;
+  text-align: center;
 }
 
 
