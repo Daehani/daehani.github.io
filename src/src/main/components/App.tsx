@@ -109,6 +109,8 @@ function App() {
 
         <div className="location2">
           <p className="space0"> <span>&nbsp;</span> </p>
+          <p className="space0"> <span>&nbsp;</span> </p>
+          <p className="space0"> <span>&nbsp;</span> </p>
           {locationText.split("\n").map((it, index) => <p key={index} className="contents1">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
           <p className="space1"> <span>&nbsp;</span> </p>
           {locationText2.split("\n").map((it, index) => <p key={index} className="contents2">{it.trim() === '' ? <span>&nbsp;</span> : it}</p>)}
@@ -116,9 +118,9 @@ function App() {
           <p className="overlay1">
             <Map assetsBaseUrl={assetsBaseUrl}/>
           </p>
-          <p className="overlay2">
+          {/* <p className="overlay2">
             <YouTubeVideoWithThumbnail />
-          </p>
+          </p> */}
           
         </div>
         
