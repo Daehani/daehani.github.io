@@ -272,16 +272,21 @@ body {
 .location2 {
   background: #ff2b76;
   width: 100%;
-  height: 700px;
+  height: 1000px;
   margin: 0 0 6rem 0;
   text-align: center;
   line-height: .5rem;
+}
+.location2 .space0 {
+  margin: 5.5rem 0 0;
 }
 .location2 .contents1 {
   color: #ffffff;
   font-family: "Pretendard-ExtraBold";
   font-size: 1.1rem;
-  margin: 5.5rem 0 1.5rem;
+}
+.location2 .space1 {
+  margin: 1rem 0 1rem;
 }
 .location2 .contents2 {
   color: #ffffff;
@@ -294,12 +299,17 @@ body {
   font-size: 0.8rem;
   margin: 0 0 1.5rem;
 }
-.location2 .overlay {
+.location2 .overlay1 {
   position: absolute;
-  /* top: 240px; */
+  top: 240px;
   left: 40px;
-  /* display: flex; */
-  max-width: 90%;  /*이미지의 최대 너비를 컨테이너 너비의 90%로 제한*/
+  max-width: 90%;
+}
+.location2 .overlay2 {
+  position: absolute;
+  top: 600px;
+  left: 40px;
+  max-width: 90%;
 }
 
 
