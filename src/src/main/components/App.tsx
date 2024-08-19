@@ -65,7 +65,7 @@ function App() {
     resize();
     window.addEventListener('resize', resize);
     function resize() {
-        var mapWidth = window.innerWidth * 0.75;
+        var mapWidth = window.innerWidth * 0.9;
         var mapHeight = 250;
 
         if (mapWidth >= 490) {
