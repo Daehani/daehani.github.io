@@ -62,18 +62,18 @@ function App() {
       position: center,
       map: map
     });
-    // resize();
-    // window.addEventListener('resize', resize);
-    // function resize() {
-    //     var mapWidth = window.innerWidth * 0.9;
-    //     var mapHeight = 250;
+    resize();
+    window.addEventListener('resize', resize);
+    function resize() {
+        // var mapWidth = window.innerWidth * 0.9;
+        var mapWidth = 430;
+        var mapHeight = 250;
 
-    //     if (mapWidth >= 490) {
-    //         mapWidth = 435;
-    //     }
-    //     map.setSize(new naver.maps.Size(mapWidth, mapHeight));
-    // }
-    map.setSize(new naver.maps.Size(window.innerWidth, 250));
+        if (mapWidth >= 490) {
+            mapWidth = 435;
+        }
+        map.setSize(new naver.maps.Size(mapWidth, mapHeight));
+    }
   }
 
   return (
