@@ -305,7 +305,7 @@ body {
   width: 100%;
   max-width: 95%;
   margin: 0 auto;
-  /* margin: 0 0 0 20px; */
+  text-align: center;
 }
 .location2 .video-container {
   /* position: absolute;
@@ -334,6 +334,8 @@ body {
 
 
 .maps {
+  /* position: absolute; */
+  /* left: 40px; */
   margin: 0 -1rem 2rem -1rem;
 }
 
