@@ -279,13 +279,13 @@ body {
   color: #ffffff;
   font-family: "Pretendard-ExtraBold";
   font-size: 1.1rem;
-  margin: 5.5rem 0 1rem 0;
+  margin: 3rem 0 0rem 0;
 }
 .location2 .category2 {
   color: #ffffff;
   font-family: "Pretendard-ExtraBold";
   font-size: 1.1rem;
-  margin: 1rem 0 1.5rem 0;
+  margin: 0.4rem 0 1.5rem 0;
 }
 .location2 .contents2 {
   color: #ffffff;
@@ -297,7 +297,7 @@ body {
   font-family: "Pretendard-Medium";
   font-size: 0.8rem;
   line-height: 0.5rem;
-  margin: 0 0 1.5rem;
+  margin: 1.5rem 0 2rem 0;
 }
 .location2 .maps-container {
   display: flex;
@@ -337,7 +337,7 @@ body {
   position: relative;  /* relative로 변경해서 일반적인 정렬 방식을 사용 */
   /* width: auto;         필요에 따라 크기를 조정 */
   /* height: auto;        필요에 따라 크기를 조정 */
-  margin: 0 -1rem 2rem -1rem;
+  margin: 0 -1rem 1.5rem -1rem;
 }
 
 .maps .map {
