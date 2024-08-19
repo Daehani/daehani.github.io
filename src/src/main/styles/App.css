@@ -220,7 +220,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .location .category1 {
   position: absolute;
   top: 70px;
@@ -229,7 +228,6 @@ body {
   color: #ffffff;
   font-size: 1.1rem;
 }
-
 .location .category2 {
   position: absolute;
   top: 100px;
@@ -238,7 +236,6 @@ body {
   color: #ffffff;
   font-size: 1.1rem;
 }
-
 .location .contents1 {
   position: absolute;
   top: 140px;
